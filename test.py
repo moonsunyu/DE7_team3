@@ -1,3 +1,3 @@
-print("hello")
-
-print("test test")
+# delete all
+print("add")
+print("last test")

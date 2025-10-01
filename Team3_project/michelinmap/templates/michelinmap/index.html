@@ -4,55 +4,77 @@
     <meta charset="utf-8">
     <title>미슐랭 맛집 지도</title>
     {% load static %}
+    <link rel="icon" href="{% static 'michelinmap/img/favicon.ico' %}" type="image/x-icon">
     <script src="{% static 'michelinmap/index.js' %}" defer></script>
+    <link rel="stylesheet" href="{% static 'michelinmap/style.css' %}">
 </head>
-<body>
-    <h1>미슐랭 맛집 지도</h1>
-
-    <!-- 1️⃣ Form -->
-    <form method="get" action="{% url 'michelinmap:index' %}">
-        <!-- Region 선택 -->
-        <select name="region_id" id="region-select">
-            <option value="" disabled selected style="color:#999;">시/도 선택</option>
-             {% for region in regions %}
-                <option value="{{ region.id }}"
-                        {% if selected_region_id == region.id|stringformat:"s" %}selected{% endif %}>
-                    {{ region.r_name }}
-                </option>
-            {% endfor %}
-        </select>
-        <!-- City 선택 -->
-        <select name="city_id" id="city-select">
-            <option value="" selected style="color:#999;">시/군/구 선택</option>
-        </select>
-
-        <button type="submit">검색</button>
-    </form>
-
-    <iframe 
-        src="{% url 'michelinmap:map' %}?region_id={{ selected_region_id }}&city_id={{ selected_city_id }}" 
-        width="100%" 
-        height="600px" 
-        style="border:none;">
-    </iframe>
-
-    <!-- 2️⃣ 레스토랑 리스트 -->
-     {% if selected_region_id or selected_city_id %}
-        <ul>
-            {% if restaurants %}
-                {% for r in restaurants %}
-                    <li>
-                        <a href="{% url 'michelinmap:detail' r.id %}">{{ r.name }}</a>
-                        - {{ r.address }} {{ r.category }} {{ r.price }}
-                    </li>
+<body class="{% if not selected_region_id and not selected_city_id %}initial-center{% endif %}">
+    <header>
+        <h1>
+            <img class="img-title" src="{% static 'michelinmap/img/title.png' %}" alt="타이틀"> 
+        </h1>
+    </header>
+    <main>
+        <!-- 1️⃣ Form -->
+        <form method="get" action="{% url 'michelinmap:index' %}" class="dropbox" id="location-form">
+            <!-- Region 선택 -->
+            <select name="region_id" id="region-select" class="select-region">
+                <option value="" disabled selected style="color:#999;">시/도 선택</option>
+                {% for region in regions %}
+                    <option value="{{ region.id }}"
+                            {% if selected_region_id == region.id|stringformat:"s" %}selected{% endif %}>
+                        {{ region.r_name }}
+                    </option>
                 {% endfor %}
-            {% else %}
-                <li>등록된 식당이 없습니다.</li>
-            {% endif %}
-        </ul>
-    {% endif %}
+            </select>
+            <!-- City 선택 -->
+            <select name="city_id" id="city-select" class="select-city">
+                <option value="" selected style="color:#999;">시/군/구 선택</option>
+            </select>
+
+            <button type="submit" class="search-btn">Go!</button>
+        </form>
+
+        {% if selected_region_id or selected_city_id %}
+        <div class="map-and-list">
+            <iframe 
+                src="{% url 'michelinmap:map' %}?region_id={{ selected_region_id }}&city_id={{ selected_city_id }}" 
+                height="550px" 
+                style="border:none;"
+                class="map-frame"
+                scrolling="no">
+            </iframe>
+
+            <!-- 2️⃣ 레스토랑 리스트 -->
+             <div class="restaurant-list-box">
+                <ul class="restaurant-list">
+                    {% if selected_region_id or selected_city_id %}
+                    <div class="search-result">
+                        <span class ="result-text">검색 결과</span>
+                    </div>
+                    {% endif %}
+                    
+                    {% if restaurants %}
+                        {% for r in restaurants %}
+                            <li class="restaurant-item">
+                                <div class="name-price">
+                                    <a href="{% url 'michelinmap:detail' r.id %}" class="restaurant-name">{{ r.name }}</a>
+                                    <span class="category-price">{{ r.category }} · {{ r.price }}</span>
+                                </div>
+                                <div class="restaurant-info"> 
+                                    <span class="address">{{ r.address }}</span>
+                                </div>
+                            </li>
+                        {% endfor %}
+                    {% else %}
+                        <li class="no-restaurant" style="padding: 15px;">등록된 식당이 없습니다.</li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+        {% endif %}
+    </main>    
     <!-- 3️⃣ JS에 전달할 데이터 -->
     {{ cities|json_script:"cities-data" }}
-
 </body>
 </html>

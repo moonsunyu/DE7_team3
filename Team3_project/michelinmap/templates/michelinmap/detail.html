@@ -8,9 +8,38 @@
     <h1>{{ restaurant.name }}</h1>
     <p><strong>주소:</strong> {{ restaurant.address }}</p>
     <p><strong>카테고리:</strong> {{ restaurant.category }}</p>
-    <p><strong>평점:</strong> {{ restaurant.rating }}</p>
     <p><strong>전화번호:</strong> {{ restaurant.call_number }}</p>
+    <p>{{ restaurant.price }}</p>
+    <p><a href="{{ restaurant.page }}">미쉐린 페이지 바로가기</a></p>
 
     <p><a href="{% url 'michelinmap:index' %}">메인 페이지</a></p>
+
+    {% load static %}
+    {% if restaurant.rating %}
+
+        <h3> 평점 : {{ restaurant.rating }} </h3>
+        {{ star_ratio|json_script:"star_ratio" }}
+        <canvas id="starChart" width="400" height="300"></canvas>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="{% static 'michelinmap/star_chart.js' %}"></script>
+
+
+        <h3>Good 리뷰 워드클라우드</h3>
+        {% if good_wc %}
+            <img src="data:image/png;base64,{{ good_wc }}" alt="긍정 리뷰"/>
+        {% else %}
+            <p>긍정 리뷰가 없습니다.</p>
+        {% endif %}
+
+        <h3>Bad 리뷰 워드클라우드</h3>
+        {% if bad_wc %}
+            <img src="data:image/png;base64,{{ bad_wc }}" alt="부정 리뷰"/>
+        {% else %}
+            <p>부정 리뷰가 없습니다.</p>
+        {% endif %}
+    {% else %}
+        <h4> 후기 미제공 </h4>
+    {% endif %}
 </body>
 </html>

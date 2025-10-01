@@ -66,20 +66,14 @@ body.initial-center header {
     align-items: flex-start;
     max-width: 1200px;
     margin: 10px auto;
-}
-
-.map-frame {
-    border-radius: 10px;
-    flex: 2;
-    height: 550px;
-    padding: 10px;
-    margin: 0;
+    width: 95%;
+    height: 500px;
+    margin-top: 18px;
 }
 
 .restaurant-list-box {
     flex: 1; 
     max-height: 550px;
-    margin-top: 17px;
     overflow-y: auto;
     border: none;
     border-radius: 5px; 
@@ -87,7 +81,6 @@ body.initial-center header {
     
     background-color: #fff;
 }
-
 
 /* 스크롤바 넓이 */
 .restaurant-list-box::-webkit-scrollbar {

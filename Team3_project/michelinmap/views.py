@@ -41,7 +41,7 @@ def index(request):
             except ValueError:
                 pass
 
-        restaurants = list(restaurants_query.values('id', 'name', 'address', 'category', 'city_id', 'page', 'price'))
+        restaurants = list(restaurants_query.values('id', 'name', 'address', 'category', 'city_id', 'page', 'price', 'latitude', 'longitude'))
 
     context = {
         'regions': regions,

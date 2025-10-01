@@ -5,7 +5,9 @@
     <title>미슐랭 맛집 지도</title>
     {% load static %}
     <link rel="icon" href="{% static 'michelinmap/img/favicon.ico' %}" type="image/x-icon">
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=f21e0fd8ad7461f15ea3b66e2834dc0c"></script>
     <script src="{% static 'michelinmap/index.js' %}" defer></script>
+    <script src="{% static 'michelinmap/map.js' %}" defer></script>
     <link rel="stylesheet" href="{% static 'michelinmap/style.css' %}">
 </head>
 <body class="{% if not selected_region_id and not selected_city_id %}initial-center{% endif %}">
@@ -37,13 +39,7 @@
 
         {% if selected_region_id or selected_city_id %}
         <div class="map-and-list">
-            <iframe 
-                src="{% url 'michelinmap:map' %}?region_id={{ selected_region_id }}&city_id={{ selected_city_id }}" 
-                height="550px" 
-                style="border:none;"
-                class="map-frame"
-                scrolling="no">
-            </iframe>
+            <div id="map" style = "flex: 2; min-width:200px; min-height:500px; margin-bottom: 20px;"></div>
 
             <!-- 2️⃣ 레스토랑 리스트 -->
              <div class="restaurant-list-box">
@@ -56,7 +52,7 @@
                     
                     {% if restaurants %}
                         {% for r in restaurants %}
-                            <li class="restaurant-item">
+                            <li class="restaurant-item" data-lat="{{ r.latitude }}" data-lng="{{ r.longitude }}">
                                 <div class="name-price">
                                     <a href="{% url 'michelinmap:detail' r.id %}" class="restaurant-name">{{ r.name }}</a>
                                     <span class="category-price">{{ r.category }} · {{ r.price }}</span>
@@ -76,5 +72,6 @@
     </main>    
     <!-- 3️⃣ JS에 전달할 데이터 -->
     {{ cities|json_script:"cities-data" }}
+    {{ restaurants|json_script:"restaurants-data" }}
 </body>
 </html>

@@ -43,7 +43,7 @@
                 {% for r in restaurants %}
                     <li>
                         <a href="{% url 'michelinmap:detail' r.id %}">{{ r.name }}</a>
-                        - {{ r.address }} {{ r.category }}
+                        - {{ r.address }} {{ r.category }} {{ r.price }}
                     </li>
                 {% endfor %}
             {% else %}

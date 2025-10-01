@@ -22,7 +22,7 @@ def index(request):
     restaurants_query = Restaurant.objects.none()
     restaurants = []
 
-    if region_id or city_id:
+    if region_id and city_id:
         restaurants_query = Restaurant.objects.all()
 
         # 1. Region 필터링
@@ -85,14 +85,14 @@ def map_view(request):
 
 
 def detail(request, restaurant_id):
-    # 1️⃣ 식당 객체 가져오기
+    # 식당 객체 가져오기
     restaurant = get_object_or_404(Restaurant, pk=restaurant_id)
     reviews = Review.objects.filter(restaurant=restaurant)
 
     if restaurant.rating == "None":
         restaurant.rating = None
 
-    # 2️⃣ 별점 비율 계산
+    # 별점 비율 계산
     total_reviews = reviews.count()
     rating_counts = reviews.values('star').annotate(count=Count('star'))
     star_dict = {i: 0 for i in range(1, 6)}
@@ -100,7 +100,7 @@ def detail(request, restaurant_id):
         if total_reviews > 0:
             star_dict[r['star']] = r['count'] / total_reviews
 
-    # 3️⃣ 워드 클라우드 생성 준비
+    # 워드 클라우드 생성
     good_reviews = []
     bad_reviews = []
     hannanum = Hannanum()

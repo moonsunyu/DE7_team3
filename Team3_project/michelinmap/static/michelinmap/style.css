@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url("/static/michelinmap/fonts/Pretendard-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+  text-align: center;
+}
+
+.img-title {
+  display: inline-block; 
+  max-width: 600px;
+  height: auto;
+}
+
+form {
+   text-align: center; 
+}
+.search-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    font-family: 'Pretendard';
+}
+
+.select-region, .select-city {
+    padding: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Pretendard';
+}
+
+.search-btn {
+    background: #ac182d;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Pretendard';
+    margin-left: 5px;
+}
+
+body {
+    overflow: hidden;
+}
+
+body.initial-center {
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden; 
+}
+
+body.initial-center header {
+    margin-top: -160px;
+    margin-bottom: 20px;
+}
+
+.map-and-list {
+    display: flex;
+    gap: 20px;       
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 10px auto;
+}
+
+.map-frame {
+    border-radius: 10px;
+    flex: 2;
+    height: 550px;
+    padding: 10px;
+    margin: 0;
+}
+
+.restaurant-list-box {
+    flex: 1; 
+    max-height: 550px;
+    margin-top: 17px;
+    overflow-y: auto;
+    border: none;
+    border-radius: 5px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
+    
+    background-color: #fff;
+}
+
+
+/* 스크롤바 넓이 */
+.restaurant-list-box::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* 스크롤 막대 */
+.restaurant-list-box::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 3px;
+}
+
+/* 스크롤 막대 배경 영역 */
+.restaurant-list-box::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+}
+
+.restaurant-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-right: 0; 
+}
+
+
+.search-result {
+    background-color: #ac182d;
+    padding: 10px 15px;
+    border-top-left-radius: 5px; 
+    border-top-right-radius: 5px;
+    margin-bottom: 0;
+    
+    /* 스크롤 시 상단 고정 */
+    position: sticky; 
+    top: 0;
+    z-index: 10;
+}
+
+.result-text {
+    font-size: 1.0em; 
+    font-weight: bold;
+    color: white; 
+    font-family: 'Pretendard';
+    display: block; 
+}
+
+.restaurant-item {
+    background-color: #fff;
+    border: none; /* 🌟 개별 카드 테두리 제거 */
+    border-radius: 0; /* 모서리 둥글기 제거 */
+    padding: 20px;
+    margin-bottom: 0; /* 항목 간 외부 여백 제거 */
+    
+    border-bottom: 1px solid #eee; 
+    
+    transition: background-color 0.2s;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* 이름/가격 그룹과 주소 간 간격 조정 */
+}
+
+/* 마지막 항목 구분선과 하단 여백 제거 */
+.restaurant-list .restaurant-item:last-child {
+    border-bottom: none; 
+    margin-bottom: 0;
+}
+
+.name-price {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.restaurant-item a {
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.1em; /* 크기 조정 */
+    font-family: 'Pretendard';
+    cursor: pointer;
+}
+
+.restaurant-name:hover {
+    color: #ac182d; /* 원하는 색으로 변경 */
+}
+
+.category-price {
+    font-size: 0.9em;
+    color: #888;
+    font-weight: normal;
+    font-family: 'Pretendard';
+    white-space: nowrap;
+}
+
+
+.restaurant-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding-top: 2px;
+    font-family: 'Pretendard';
+}
+
+.category-price {
+    font-size: 0.9em;
+    color: #888;
+    font-weight: normal;
+    font-family: 'Pretendard';
+    white-space: nowrap; /* 줄바꿈 방지 */
+}
+
+.address {
+    font-size: 0.9em;
+    color: #555;
+    font-family: 'Pretendard';
+}
+
+.restaurant-list .restaurant-item:last-child {
+    margin-bottom: 10;
+}
+
+.no-restaurant {
+    text-align: center;
+    padding: 20px 0;
+    color: #999;
+    font-family: 'Pretendard';
+}

@@ -72,5 +72,11 @@ document.addEventListener("DOMContentLoaded", function() {
         // 폼 제출은 '검색' 버튼이 담당하므로, 여기서 submit()은 호출하지 않습니다.
     });
 
-    // 🚨 중복된 코드는 제거되었습니다. 🚨
+    var form = document.getElementById('location-form'); // 폼 ID 확인
+    form.addEventListener('submit', function(e) {
+        if (!regionSelect.value || !citySelect.value) {
+            e.preventDefault(); // 제출 막기
+            alert('시/도와 시/군/구를 모두 선택해주세요!');
+        }
+    });
 });

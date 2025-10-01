@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{ restaurant.name }} - 상세 정보</title>
+</head>
+<body>
+    <h1>{{ restaurant.name }}</h1>
+    <p><strong>주소:</strong> {{ restaurant.address }}</p>
+    <p><strong>카테고리:</strong> {{ restaurant.category }}</p>
+    <p><strong>평점:</strong> {{ restaurant.rating }}</p>
+    <p><strong>전화번호:</strong> {{ restaurant.call_number }}</p>
+
+    <p><a href="{% url 'michelinmap:index' %}">메인 페이지</a></p>
+</body>
+</html>

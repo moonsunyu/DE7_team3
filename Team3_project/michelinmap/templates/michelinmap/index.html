@@ -3,6 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>미슐랭 맛집 지도</title>
+    {% load static %}
+    <script src="{% static 'michelinmap/index.js' %}" defer></script>
 </head>
 <body>
     <h1>미슐랭 맛집 지도</h1>
@@ -10,65 +12,47 @@
     <!-- 1️⃣ Form -->
     <form method="get" action="{% url 'michelinmap:index' %}">
         <!-- Region 선택 -->
-        <select id="region-select">
+        <select name="region_id" id="region-select">
             <option value="" disabled selected style="color:#999;">시/도 선택</option>
-            {% for region in regions %}
-                <option value="{{ region.id }}">{{ region.r_name }}</option>
-            {% endfor %}
-        </select>
-
-        <!-- City 선택 -->
-        <select name="city_id" id="city-select">
-            <option value="" disabled selected style="color:#999;">시/군/구 선택</option>
-            {% for city in cities %}
-                <option value="{{ city.id }}" {% if selected_city_id == city.id %}selected{% endif %}>
-                    {{ city.c_name }}
+             {% for region in regions %}
+                <option value="{{ region.id }}"
+                        {% if selected_region_id == region.id|stringformat:"s" %}selected{% endif %}>
+                    {{ region.r_name }}
                 </option>
             {% endfor %}
+        </select>
+        <!-- City 선택 -->
+        <select name="city_id" id="city-select">
+            <option value="" selected style="color:#999;">시/군/구 선택</option>
         </select>
 
         <button type="submit">검색</button>
     </form>
 
     <iframe 
-        src="{% url 'michelinmap:map' %}" 
+        src="{% url 'michelinmap:map' %}?region_id={{ selected_region_id }}&city_id={{ selected_city_id }}" 
         width="100%" 
         height="600px" 
         style="border:none;">
     </iframe>
 
     <!-- 2️⃣ 레스토랑 리스트 -->
-    <ul>
-        {% if restaurants %}
-            {% for r in restaurants %}
-                <li>{{ r.name }} - {{ r.address }}</li>
-            {% endfor %}
-        {% else %}
-            <li>등록된 식당이 없습니다.</li>
-        {% endif %}
-    </ul>
-
-    <!-- 3️⃣ JS: Region 선택 시 city 드롭다운 갱신 -->
+     {% if selected_region_id or selected_city_id %}
+        <ul>
+            {% if restaurants %}
+                {% for r in restaurants %}
+                    <li>
+                        <a href="{% url 'michelinmap:detail' r.id %}">{{ r.name }}</a>
+                        - {{ r.address }} {{ r.category }}
+                    </li>
+                {% endfor %}
+            {% else %}
+                <li>등록된 식당이 없습니다.</li>
+            {% endif %}
+        </ul>
+    {% endif %}
+    <!-- 3️⃣ JS에 전달할 데이터 -->
     {{ cities|json_script:"cities-data" }}
-    <script>
-        var allCities = JSON.parse(document.getElementById('cities-data').textContent);
-        var regionSelect = document.getElementById('region-select');
-        var citySelect = document.getElementById('city-select');
 
-        regionSelect.addEventListener('change', function() {
-            var selectedRegionId = parseInt(this.value);
-
-            citySelect.innerHTML = '<option value="" disabled selected style="color:#999;">시/군/구 선택</option>';
-
-            allCities.forEach(function(city) {
-                if (city.region_id === selectedRegionId) {
-                    var option = document.createElement('option');
-                    option.value = city.id;
-                    option.textContent = city.c_name;
-                    citySelect.appendChild(option);
-                }
-            });
-        });
-    </script>
 </body>
 </html>

@@ -21,8 +21,9 @@ class Restaurant(models.Model):
     longitude = models.FloatField()
     category = models.CharField(max_length=100)
     page = models.CharField(max_length=300)
-    price = models.CharField(max_length=100)
+    price = models.CharField(max_length=100, blank=True, null=True)
     rating = models.FloatField(blank=True, null=True)
+    review_cnt = models.IntegerField(blank=True, null=True)
     call_number = models.CharField(max_length=20, blank=True, null=True)
     city = models.ForeignKey(City, on_delete=models.CASCADE, related_name='restaurants')
 

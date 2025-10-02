@@ -47,6 +47,7 @@ header h1 {
 .restaurant-info {
     padding: 40px 0;
     border-bottom: 1px solid #eee;
+    margin-top: 5px; 
 }
 
 .restaurant-info h2 {
@@ -66,10 +67,32 @@ header h1 {
     margin-bottom: 15px;
 }
 
-.restaurant-info p {
+.icon {
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.address, .yes-number {
     margin: 3px 0;
     font-size: 15px;
     color: #555;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    
+    margin: 3px 0; 
+    font-size: 15px;
+    color: #555;
+}
+
+.no-number {
+    margin: 3px 0;
+    font-size: 15px;
+    color: #969696;
 }
 
 .restaurant-info a {
@@ -111,6 +134,11 @@ header h1 {
     color: #a7232e; /* 이미지의 노란색 강조 (여기서는 붉은색) */
     margin: 0;
     line-height: 1;
+}
+
+.rating-score p {
+    /* 평점 4.5 */
+    font-size: 15px;
 }
 
 .rating-chart {

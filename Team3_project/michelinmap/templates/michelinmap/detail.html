@@ -19,15 +19,30 @@
     <div class="container">
         <div class="restaurant-info">
             <h2>{{ restaurant.name }}</h2>
-            <span class="category-price">{{ restaurant.category }} · {{ restaurant.price }}</span>   
-            <p>{{ restaurant.address }}</p>
-            <p>{{ restaurant.call_number }}</p>
+            <span class="category-price">{{ restaurant.category }} · {{ restaurant.price }}</span>
+            <div class="info-item address-line">
+                <img src="{% static 'michelinmap/img/ping.png' %}" alt="위치 아이콘" class="icon">
+                <span class="address">{{ restaurant.address }}</span>
+            </div>
+            
+            {% if restaurant.call_number %}
+                <div class="info-item phone-line">
+                    <img src="{% static 'michelinmap/img/phone.png' %}" alt="전화 아이콘" class="icon">
+                    <span class="yes-number">{{ restaurant.call_number }}</span>
+                </div>
+            {% else %}
+                <div class="info-item phone-line no-number">
+                    <img src="{% static 'michelinmap/img/phone.png' %}" alt="전화 아이콘" class="icon">
+                    <span class="no-number">전화번호 없음</span>
+                </div>
+            {% endif %}
             <a href="{{ restaurant.page }}">미쉐린 가이드 페이지 바로가기 &rarr;</a>
         </div>
         {% if restaurant.rating %}
         <div class="rating-section">
             <div class="rating-score">
                 <h3> {{ restaurant.rating }} </h3>
+                <p> 리뷰 : {{restaurant.review_cnt}}개</p>
             </div>
             <div class="rating-chart">
                 {{ star_ratio|json_script:"star_ratio" }}

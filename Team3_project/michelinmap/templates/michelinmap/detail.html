@@ -1,45 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
     <meta charset="utf-8">
     <title>{{ restaurant.name }} - 상세 정보</title>
+    
+    {% load static %}
+    <link rel="icon" href="{% static 'michelinmap/img/favicon.ico' %}" type="image/x-icon">
+    <link rel="stylesheet" href="{% static 'michelinmap/detail.css' %}">  
 </head>
 <body>
-    <h1>{{ restaurant.name }}</h1>
-    <p><strong>주소:</strong> {{ restaurant.address }}</p>
-    <p><strong>카테고리:</strong> {{ restaurant.category }}</p>
-    <p><strong>전화번호:</strong> {{ restaurant.call_number }}</p>
-    <p>{{ restaurant.price }}</p>
-    <p><a href="{{ restaurant.page }}">미쉐린 페이지 바로가기</a></p>
+    <header>
+        <h1 class="header-title">
+            <a href="{% url 'michelinmap:index' %}" title="메인 페이지로 이동">
+                <img class="img-title" src="{% static 'michelinmap/img/title.png' %}" alt="미슐랭 맛집 지도"> 
+            </a>
+        </h1>
+    </header>
+    <div class="container">
+        <div class="restaurant-info">
+            <h2>{{ restaurant.name }}</h2>
+            <span class="category-price">{{ restaurant.category }} · {{ restaurant.price }}</span>   
+            <p>{{ restaurant.address }}</p>
+            <p>{{ restaurant.call_number }}</p>
+            <a href="{{ restaurant.page }}">미쉐린 가이드 페이지 바로가기 &rarr;</a>
+        </div>
+        {% if restaurant.rating %}
+        <div class="rating-section">
+            <div class="rating-score">
+                <h3> {{ restaurant.rating }} </h3>
+            </div>
+            <div class="rating-chart">
+                {{ star_ratio|json_script:"star_ratio" }}
+                <canvas id="starChart"></canvas>
 
-    <p><a href="{% url 'michelinmap:index' %}">메인 페이지</a></p>
-
-    {% load static %}
-    {% if restaurant.rating %}
-
-        <h3> 평점 : {{ restaurant.rating }} </h3>
-        {{ star_ratio|json_script:"star_ratio" }}
-        <canvas id="starChart" width="400" height="300"></canvas>
-
-        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-        <script src="{% static 'michelinmap/star_chart.js' %}"></script>
-
-
-        <h3>Good 리뷰 워드클라우드</h3>
-        {% if good_wc %}
-            <img src="data:image/png;base64,{{ good_wc }}" alt="긍정 리뷰"/>
+                <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                <script src="{% static 'michelinmap/star_chart.js' %}"></script>
+            </div>
+        </div>
+        <div class="wordcloud-container">
+            <div class="good-wc">
+                <p>#GOOD #리뷰 #키워드</p>
+                {% if good_wc %}
+                <div class="wordcloud-image-wrapper">
+                    <img src="data:image/png;base64,{{ good_wc }}" alt="긍정 리뷰"/>
+                </div>
+                {% else %}
+                    <p>긍정 리뷰가 없습니다.</p>
+                {% endif %}
+            </div>
+            <div class="bad-wc">
+                <p>#BAD #리뷰 #키워드</p>
+                {% if bad_wc %}
+                <div class="wordcloud-image-wrapper">
+                    <img src="data:image/png;base64,{{ bad_wc }}" alt="부정 리뷰"/>
+                </div>
+                {% else %}
+                    <p>부정 리뷰가 없습니다.</p>
+                {% endif %}
+            </div>
+        </div>
         {% else %}
-            <p>긍정 리뷰가 없습니다.</p>
+            <h4 class="no-review"> 후기 미제공 </h4>
         {% endif %}
-
-        <h3>Bad 리뷰 워드클라우드</h3>
-        {% if bad_wc %}
-            <img src="data:image/png;base64,{{ bad_wc }}" alt="부정 리뷰"/>
-        {% else %}
-            <p>부정 리뷰가 없습니다.</p>
-        {% endif %}
-    {% else %}
-        <h4> 후기 미제공 </h4>
-    {% endif %}
+    </div>
 </body>
 </html>

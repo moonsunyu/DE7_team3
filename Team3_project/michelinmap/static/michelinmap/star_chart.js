@@ -25,10 +25,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 backgroundColor: '#FFD700', // ✨ 색상 단일화 (원래 금색)
                 borderColor: '#FFD700',
                 borderWidth: 1,
-                borderRadius: 3,
+                borderRadius: 10,
+                borderSkipped: false,
                 
-                categoryPercentage: 0.8, // 카테고리가 차지하는 공간 비율을 늘림 (막대 두께)
-                barPercentage: 0.9      // 막대가 카테고리 공간에서 차지하는 비율을 늘림 (간격 감소)
+                categoryPercentage: 0.6, // 카테고리가 차지하는 공간 비율을 늘림 (막대 두께)
+                barPercentage: 0.8     // 막대가 카테고리 공간에서 차지하는 비율을 늘림 (간격 감소)
             }]
         },
         options: {
@@ -63,13 +64,15 @@ document.addEventListener("DOMContentLoaded", function() {
                         drawTicks: false,
                         color: '#FFD700',
                         font: {
-                            size: 30,       // 글꼴 크기를 14px로 설정
+                            size: 25,       // 글꼴 크기를 14px로 설정
                             weight: 'bold', // 글꼴을 굵게 설정
-                        }
+                        },
+                        padding: 5
                     },
                     border: {
                         display: false
-                    }
+                    },
+                    offset: true
                 } 
             },
             animation: false 

@@ -106,33 +106,33 @@ class Command(BaseCommand):
         # ============================================
         # 4. Review (리뷰) 데이터 로드
         # ============================================
-        # print(" Step 4: Review 데이터 로딩중...")
-        # print("   (리뷰가 많아서 시간이 좀 더 걸려요...)")
+        print(" Step 4: Review 데이터 로딩중...")
+        print("   (리뷰가 많아서 시간이 좀 더 걸려요...)")
         
-        # df = pd.read_csv('reviews.csv')
-        # count = 0
+        df = pd.read_csv('reviews.csv')
+        count = 0
         
-        # for index, row in df.iterrows():
-        #     # 해당 Restaurant 찾기
-        #     restaurant = Restaurant.objects.get(id=row['restaurant_id'])
+        for index, row in df.iterrows():
+            # 해당 Restaurant 찾기
+            restaurant = Restaurant.objects.get(id=row['restaurant_id'])
             
-        #     # Review 생성
-        #     review, created = Review.objects.get_or_create(
-        #         id=row['id'],
-        #         defaults={
-        #             'restaurant': restaurant,
-        #             'star': row['star'] if pd.notna(row['star']) else 0.0,
-        #             'comment': row['comment'] if pd.notna(row['comment']) else ''
-        #         }
-        #     )
+            # Review 생성
+            review, created = Review.objects.get_or_create(
+                id=row['id'],
+                defaults={
+                    'restaurant': restaurant,
+                    'star': row['star'] if pd.notna(row['star']) else 0.0,
+                    'comment': row['comment'] if pd.notna(row['comment']) else ''
+                }
+            )
             
-        #     if created:
-        #         count += 1
-        #         # 100개마다 진행상황 표시
-        #         if count % 100 == 0:
-        #             print(f"   ... {count}개 완료")
+            if created:
+                count += 1
+                # 100개마다 진행상황 표시
+                if count % 100 == 0:
+                    print(f"   ... {count}개 완료")
         
-        # print(f"   완료! 전체 리뷰 수: {Review.objects.count()}개\n")
+        print(f"   완료! 전체 리뷰 수: {Review.objects.count()}개\n")
         
         
         # ============================================

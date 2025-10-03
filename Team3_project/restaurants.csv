@@ -1,225 +1,246 @@
-id,name,address,latitude,longitude,category,page,price,rating,review_cnt,call_number,city_id,similarity_score
-1,류니끄,서울 강남구 도산대로45길 8-1,37.52291,127.03599,이노베이티브,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/ryunique,가격대 높음,4.0,11,+82 2-546-9279,1,100.0
-2,오부이용,서울 성동구 독서당로51길 29-1,37.5311165,127.0073647,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/au-bouillon,가격대 보통,4.6,56,+82 2-6401-1048,2,100.0
-3,진미식당,서울 마포구 마포대로 186-6,37.55055,126.95577,게장,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/jinmi-sikdang,가격대 보통,3.6,180,+82 2-3211-4468,3,100.0
-4,정육면체,서울 서대문구 연세로5다길 22-8,37.55665,126.93576,국수,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/tasty-cube,가격대 낮음,3.8,417,+82 70-4179-3819,4,100.0
-5,정식당,서울 강남구 선릉로158길 11,37.525584,127.041069,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/jungsik511965,가격대 높음,3.1,350,+82 2-517-4654,1,100.0
-6,해남천일관,서울 서초구 반포대로39길 36-1,37.49862,127.00195,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/haenam-cheonilgwan,가격대 보통,3.7,10,+82 2-568-7775,5,100.0
-7,일드청담,서울 강남구 도산대로59길 13,37.52466,127.04189,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/ile-de-cheongdam,가격대 높음,,0,+82 2-545-4015,1,
-8,백일평냉,부산 수영구 남천바다로10번길 29,35.14855,129.11164,냉면,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/100-1-pyeongnaeng,가격대 낮음,,0,+82 51-625-5515,6,100.0
-9,평양면옥,서울 강남구 논현로150길 6,37.56325,127.00664,냉면,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/pyeongyang-myeonok,가격대 낮음,3.3,133,+82 2-2267-7784,1,100.0
-10,역전회관,서울 마포구 토정로37길 47,37.566,126.947,불고기,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/yukjeon-hoekwan,가격대 보통,,0,+82 2-703-0019,3,100.0
-11,서교난면방,서울 마포구 동교로12길 16,37.55359,126.91231,국수,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/seokyonanmyunbang,가격대 낮음,4.3,43,+82 10-9516-0934,3,100.0
-12,야키토리 해공,부산 수영구 민락본동로19번길 30-5,35.15823,129.12712,야키토리,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/yakitori-haegong,가격대 보통,4.6,17,+82 51-758-8333,6,100.0
-13,융캉찌에,부산 수영구 광안해변로277번길 10,35.15639,129.12424,"국수, 타이완",https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/yongkangzzie,가격대 낮음,,0,+82 51-758-6011,6,100.0
-14,소바쥬,서울 마포구 큰우물로 75,37.54126,126.94629,일식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/sobajuu,가격대 보통,4.9,11,+82 70-8676-0218,3,100.0
-15,용금옥,서울 중구 다동길 24-2,37.57972,126.97088,추어탕,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/yonggeumok,가격대 낮음,3.9,63,+82 2-777-4749,23,100.0
-16,토오루,부산 부산진구 동성로49번길 38-1,35.15513,129.06638,일식,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/tooru,가격대 보통,4.2,11,+82 10-7252-6012,8,100.0
-17,대성집,서울 종로구 사직로 5,37.57269,126.96091,도가니탕,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/daesungjip,가격대 낮음,4.2,295,+82 2-735-4259,9,100.0
-18,이스트,강원특별자치도 강릉시 화부산로 183,37.5263,127.03556,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/y-east,,4.5,28,+82 70-8855-0470,10,100.0
-19,텐지몽,서울 강남구 학동로97길 41,37.52237,127.05429,일식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/tenjimon,가격대 보통,4.0,10,+82 2-542-3010,1,100.0
-20,코자차,서울 강남구 학동로97길 17,37.52083,127.05519,아시안,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/kojacha,가격대 높음,3.4,12,+82 10-9023-7771,1,100.0
-21,남포면옥,서울 중구 을지로3길 24,37.567269,126.981609,냉면,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/nampo-myeonok,가격대 낮음,3.0,362,+82 2-777-3131,23,100.0
-22,미필담,서울 마포구 성지3길 22,37.54658,126.91419,만두,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/mipildam,가격대 낮음,4.4,72,+82 10-5455-5041,3,100.0
-23,교다이야,서울 마포구 성지길 39,37.54681,126.91317,우동,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/kyodaiya,가격대 낮음,3.8,365,+82 2-2654-2645,3,100.0
-24,에빠뉘,서울 강남구 선릉로146길 33,37.52187,127.04254,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/epanoui,,4.0,16,+82 2-548-2020,1,100.0
-25,오일제,서울 용산구 한강대로62다길 29,37.53254,126.97473,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/oilje,가격대 낮음,4.1,16,+82 70-8831-5534,11,100.0
-26,리알토,서울 강남구 삼성로149길 13,37.52318,127.04655,이탤리언,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/rialto,가격대 보통,4.3,32,+82 2-544-4761,1,100.0
-27,줄라이,서울 서초구 동광로 164,37.49475,127.00008,프렌치 컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/july,,4.2,58,+82 2-534-9544,5,100.0
-28,교양식사,서울 용산구 이태원로 238,37.53592,126.99994,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/gyoyang-siksa,가격대 낮음,3.8,53,+82 10-7601-4041,11,100.0
-29,유한,서울 용산구 대사관로5길 10-5,37.53482,127.00108,타이,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/youhan,가격대 낮음,4.1,36,+82 70-8691-1509,11,100.0
-30,세븐스도어,서울 강남구 학동로97길 41,37.52237,127.05429,"컨템퍼러리, 한식",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/7th-door,가격대 높음,4.3,14,+82 2-542-3010,1,100.0
-31,샤콘느,서울 강남구 논현로97길 23,37.50274,127.03376,프렌치 컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/chaconne,,5.0,2,+82 10-2693-6392,1,100.0
-32,마테르,서울 강남구 언주로154길 16,37.52337,127.03464,"컨템퍼러리, 스칸디나비안",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/mater-1210122,가격대 보통,4.5,13,+82 2-518-5879,1,100.0
-33,소울,부산 기장군 기장읍 공수해안길 61,37.54533,126.98443,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/soul-dining,,3.0,2,+82 2-318-7685,12,100.0
-34,금돼지식당,서울 중구 다산로 149,37.55705,127.01165,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/geumdwaeji-sikdang,가격대 낮음,,0,+82 10-4484-8750,23,100.0
-35,쉐시몽,서울 용산구 회나무로 66,37.54015,126.99404,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/chez-simon,가격대 보통,4.5,53,+82 2-730-1045,11,100.0
-36,우가,서울 강남구 도산대로49길 22,37.52432,127.03734,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/wooga,,3.9,33,+82 2-6272-2223,1,100.0
-37,스테이,광주 북구 서방로9번길 7,37.51271,127.10258,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/stay,가격대 높음,5.0,6,+82 2-3213-1231,27,100.0
-38,소수헌,서울 중구 만리재로21길 8,37.55294,126.9634,스시,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/sosuheon,가격대 높음,4.9,9,+82 10-9694-3368,23,100.0
-39,에스콘디도,서울 용산구 한남대로20길 61-7,37.53517,127.01046,멕시칸,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/escondido,,5.0,2,+82 2-2038-8994,11,100.0
-40,게방식당,서울 강남구 선릉로131길 17,37.51727,127.03942,게장,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/gebang-sikdang,가격대 낮음,3.1,46,+82 10-8479-1107,1,100.0
-41,호빈,서울 강남구 학동로4길 43,37.5599583,127.0024232,중식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/haobin,가격대 높음,,0,+82 2-2270-3141,1,100.0
-42,계월곰탕,서울 성동구 성덕정3길 8,37.53952,127.04762,곰탕,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/kyewol-gomtang,가격대 낮음,3.6,53,+82 70-8703-0310,2,100.0
-43,권숙수,서울 강남구 압구정로80길 37,37.52437,127.04355,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/kwonsooksoo,가격대 높음,4.3,55,+82 2-542-6268,1,100.0
-44,이와,부산 해운대구 해운대해변로209번길 13,35.15959,129.15384,일식,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/iwa,가격대 보통,,0,+82 10-8543-3356,14,100.0
-45,정짓간,경남 진주시 신안들말길 22,35.09561,128.96248,돼지국밥,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/jeongjitgan,가격대 낮음,,0,+82 51-293-2900,15,100.0
-46,알레즈,서울 용산구 독서당로 89,37.53479,127.01029,모던 요리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/al-aise,,3.9,18,+82 70-8868-1686,11,100.0
-47,머스트루,부산 해운대구 좌동순환로433번길 29,35.16149,129.17634,유러피언,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/mustrue,가격대 보통,4.5,2,+82 51-747-2369,14,100.0
-48,아르프,부산 영도구 태종로99번길 35,35.09293,129.04258,비건,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/arp,가격대 낮음,,0,+82 10-5588-1368,16,100.0
-49,뉴러우멘관즈,부산 수영구 수영로388번길 25-4,35.14029,129.10842,타이완,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/niurou-mian-guan-zi,가격대 낮음,,0,+82 51-623-0251,6,100.0
-50,마포옥,서울 마포구 토정로 312,37.53983,126.94332,설렁탕,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/mapo-ok,가격대 낮음,,0,+82 2-716-6661,3,100.0
-51,사루카메,서울 마포구 연남로 15,37.56103,126.92267,라멘,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/sarukame,가격대 낮음,,0,070-999-9999,3,100.0
-52,소바키리 스즈,서울 중구 동호로12길 98,37.55949,127.01243,소바,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/sobakeeri-suzu,가격대 낮음,3.7,17,+82 2-2256-6986,23,100.0
-53,마나오,서울 용산구 한남대로21길 18,37.53411,127.00613,타이,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/manao,가격대 보통,3.5,30,+82 50-71368-0346,11,100.0
-54,알고리즘,서울 강남구 도산대로49길 8,37.5233164,127.0374241,"컨템퍼러리, 재패니즈 컨템퍼러리",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/aelgerizm,,4.0,3,+82 10-3015-3869,1,100.0
-55,에빗,서울 강남구 도산대로45길 10-5,37.52334,127.0362,"이노베이티브, 한식",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/evett,가격대 높음,3.9,33,+82 70-4231-1022,1,100.0
-56,이타닉 가든,서울 강남구 테헤란로 231,37.50304,127.04158,코리안 컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/eatanic-garden,가격대 높음,4.8,28,+82 2-727-7610,1,100.0
-57,콘티넨탈,부산 부산진구 가야대로756번길 13,37.5558213,127.00517,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/continental,가격대 높음,5.0,7,+82 2-2230-3369,8,100.0
-58,할매집,서울 종로구 사직로12길 1-5,37.5755506,126.9715631,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/halmaejip,가격대 낮음,2.9,132,+82 2-735-2608,9,100.0
-59,알트에이,서울 용산구 보광로 109,37.53245,126.99446,"비건, 중식",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/alt-a,가격대 낮음,4.7,67,+82 2-790-8688,11,100.0
-60,담택,서울 마포구 동교로12안길 51,37.55316,126.91412,라멘,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/damtaek,가격대 낮음,4.4,562,+82 2-336-0974,3,100.0
-61,미진,대전 서구 둔산중로40번길 28,37.5708,126.97985,메밀국수,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/mijin,가격대 낮음,3.0,78,+82 2-730-6198,17,100.0
-62,트리드,서울 강남구 선릉로162길 16,37.5267383,127.0416702,"컨템퍼러리, 아메리칸 컨템퍼러리",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/trid,,2.9,87,+82 2-512-8312,1,100.0
-63,황금콩밭,서울 마포구 마포대로16길 9,37.5509,126.9567,두부,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/hwanggeum-kongbat,가격대 낮음,3.8,258,+82 2-313-2952,3,100.0
-64,옳음,서울 강남구 선릉로152길 37,37.52451,127.04266,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/olh-eum,가격대 높음,,0,+82 2-549-2016,1,100.0
-65,익스퀴진,서울 강남구 삼성로140길 6,37.5211374,127.04969,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/exquisine,,4.2,59,+82 2-542-6921,1,100.0
-66,르도헤,부산 해운대구 마린시티3로 37,35.15543,129.14665,코리안 컨템퍼러리,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/le-dorer,,4.5,67,+82 51-747-8522,14,100.0
-67,한월관,부산 수영구 광안로62번길 10,35.15469,129.11854,곰탕,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/hanwolgwan,가격대 낮음,4.6,49,+82 51-711-7025,6,100.0
-68,면서울,서울 강남구 선릉로 805,37.52416,127.03906,국수,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/myeon-seoul,가격대 낮음,4.0,77,+82 50-71449-8878,1,100.0
-69,윤서울,서울 강남구 선릉로 805,37.52416,127.03906,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/yun,,4.4,10,+82 2-336-3323,1,100.0
-70,르오뇽,서울 강남구 도산대로17길 29,37.52177,127.02053,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/l-oignon,가격대 보통,4.8,33,+82 10-9033-9187,1,100.0
-71,굿모닝홍콩,부산 부산진구 서전로47번길 19,35.15875,129.06444,중식,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/good-morning-hongkong,가격대 낮음,4.5,143,+82 10-6444-3724,8,100.0
-72,오스테리아 어부,부산 부산진구 동천로 58,35.15394,129.06253,이탤리언,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/osteria-aboo,,,0,+82 51-802-8858,8,100.0
-73,이문설농탕,서울 종로구 우정국로 38-13,37.57272,126.98388,설렁탕,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/imun-seolnongtang,가격대 낮음,3.1,332,+82 2-733-6526,9,100.0
-74,부다면옥,부산 해운대구 중동1로 36,35.16237,129.16298,냉면,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/buda-myeonoak,가격대 낮음,3.9,98,+82 51-746-8872,14,100.0
-75,부촌육회,서울 종로구 종로 200-12,37.57034,126.99991,육회,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/buchon-yukhoe,가격대 낮음,4.2,481,+82 2-2267-1831,9,100.0
-76,옥돌현옥,서울 송파구 오금로36길 26-1,37.50153,127.12408,냉면,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/okdol-heyonok,가격대 낮음,4.2,121,+82 2-404-4824,18,100.0
-77,레귬,서울 강남구 강남대로 652,37.51938,127.01932,"비건, 베지테리안",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/legume,가격대 보통,4.3,9,+82 50-71365-1567,1,100.0
-78,기가스,서울 중구 퇴계로6가길 30,37.55696,126.97809,지중해식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/gigas,,4.6,14,+82 2-3448-9929,23,100.0
-79,뛰뚜아멍,서울 성동구 광나루로11길 20,37.54969,127.0666,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/tutoiement,가격대 높음,5.0,2,+82 2-499-9056,2,100.0
-80,동경밥상,부산 수영구 남천바다로 34-6,35.14839,129.11386,장어,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/tokyo-babsang,가격대 낮음,3.9,87,+82 70-7576-1428,6,100.0
-81,언양불고기 부산집,부산 수영구 남천바다로 32,35.14788,129.11357,불고기,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/eonyang-bulgogi-busanjip,가격대 보통,3.5,113,+82 51-754-1004,6,100.0
-82,개성만두 궁,서울 종로구 인사동10길 11-3,37.57423,126.98539,만두,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/gaeseong-mandu-koong,가격대 낮음,,0,+82 2-733-9240,9,100.0
-83,바오하우스,부산 부산진구 서전로38번길 62-9,35.15488,129.06335,타이완,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/bao-haus,가격대 낮음,3.9,373,+82 10-4888-1041,8,100.0
-84,나막집,부산 남구 분포로 145,35.13461,129.11187,돼지국밥,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/namakzip,가격대 낮음,4.0,41,+82 51-746-4882,19,100.0
-85,쉐프곤,부산 중구 중구로23번길 12,35.10011,129.02731,유러피언 컨템퍼러리,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/chef-gon,,4.6,5,+82 10-4585-6607,23,100.0
-86,산로,서울 강남구 도산대로 518,37.52417,127.04978,일식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/sanro,가격대 높음,4.0,8,+82 50-6465-6292,1,100.0
-87,화해당,충남 태안군 근흥면 근흥로 901-8,37.52689,126.91706,게장,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/hwa-hae-dang,가격대 보통,3.9,49,+82 2-785-4422,21,100.0
-88,곰탕랩,서울 강남구 도산대로 153,37.51883,127.02521,곰탕,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/gomtang-lab,가격대 낮음,3.9,23,+82 2-517-4656,1,100.0
-89,밍글스,서울 강남구 도산대로67길 19,37.52535,127.04426,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/mingles,가격대 높음,4.3,97,+82 2-515-7306,1,100.0
-90,톡톡,서울 강남구 학동로97길 41,37.52237,127.05429,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/toc-toc,가격대 보통,3.5,51,+82 2-542-3030,1,100.0
-91,하쿠시,서울 강남구 언주로157길 8-4,37.52414,127.03227,일식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/hakusi,가격대 높음,5.0,1,+82 10-7316-6212,1,100.0
-92,숙수도가,서울 성북구 동소문로17길 28,37.5935,127.01539,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/sooksoodoga,가격대 보통,,0,+82 10-8231-2627,22,100.0
-93,비네토,부산 수영구 수영로522번길 55,35.15182,129.11473,이탤리언,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/vigneto,가격대 낮음,,0,+82 10-2981-8078,6,100.0
-94,주052,서울 성동구 고산자로14길 26,37.56344,127.03766,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/sool052,가격대 보통,,0,+82 2-2281-0343,2,100.0
-95,빈호,서울 강남구 학동로43길 38,37.51866,127.03814,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/vinho,,4.7,15,+82 10-9677-2302,1,100.0
-96,시오,서울 마포구 독막로2길 30,37.5205428,127.0391949,"컨템퍼러리, 재패니즈 컨템퍼러리",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/siio,,,0,+82 2-6013-5110,3,100.0
-97,에쌍스,서울 서초구 반포대로4길 12,37.48179,127.01336,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/essence-1207862,가격대 보통,3.6,29,+82 10-8010-5099,5,100.0
-98,도우룸,서울 서초구 동광로 99,37.49379,126.99333,이탤리언,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/doughroom,가격대 보통,3.7,82,+82 2-535-9386,5,100.0
-99,미나미,서울 서초구 서초대로58길 31-2,37.4933,127.0181,소바,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/minami,가격대 낮음,2.6,117,+82 2-522-0373,5,100.0
-100,모리,인천 중구 운중로48번길 66-5,35.1602,129.16659,일식,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/mori,,4.4,44,+82 51-731-9889,23,100.0
-101,페리지,서울 강남구 봉은사로68길 6-5,37.51126,127.04949,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/perigee,가격대 보통,4.0,43,+82 10-6550-8912,1,100.0
-102,리북방,서울 마포구 마포대로1길 16,37.5396777,126.9431187,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/lee-buk-bang,가격대 보통,,0,+82 2-720-2345,3,100.0
-103,스바루,서울 서초구 방배중앙로21길 7,37.49234,126.98611,소바,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/subaru,가격대 낮음,3.9,56,+82 2-596-4882,5,100.0
-104,쥬에,서울 용산구 독서당로 124-7,37.53744,127.01277,중식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/jue,가격대 높음,4.2,82,+82 2-798-9700,11,100.0
-105,더 그린테이블,서울 종로구 율곡로 83,37.57781,126.98829,프렌치 컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/the-green-table,,4.4,15,+82 2-591-2672,9,100.0
-106,합정옥,서울 마포구 양화로1길 21,37.54944,126.91037,곰탕,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/hapjeongok,가격대 낮음,3.7,115,+82 2-322-4822,3,100.0
-107,유림면,서울 중구 서소문로 139-1,37.56419,126.9761,메밀국수,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/yurimmyeon,가격대 낮음,,0,+82 2-755-0659,23,100.0
-108,쿠시카와,서울 강남구 논현로24길 37,37.48268,127.04566,쿠시아게,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/kushi-kawa,가격대 보통,4.4,16,+82 2-579-0538,1,100.0
-109,레땅,부산 부산진구 성지로 22,35.17255,129.05523,프렌치,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/l-etang,가격대 보통,4.5,13,+82 51-807-3636,8,100.0
-110,정인면옥,경기 부천시 원미구 부흥로 347,37.5307,126.92167,냉면,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/jungin-myeonok,가격대 낮음,3.3,61,+82 2-2683-2615,24,100.0
-111,곰바위,서울 강남구 삼성로 542,37.51485,127.05885,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/gom-ba-wie,가격대 보통,3.8,21,+82 2-511-0068,1,100.0
-112,진진,서울 마포구 월드컵북로1길 60,37.55777,126.91324,중식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/jin-jin,가격대 보통,3.6,137,+82 70-5035-8878,3,100.0
-113,안목,부산 수영구 광남로22번길 3,35.14492,129.11076,돼지국밥,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/anmok,가격대 낮음,4.1,164,+82 70-8778-0519,6,100.0
-114,평양집,서울 용산구 한강대로 186,35.21213,129.00586,만두,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/pyeongyangjip,가격대 낮음,2.9,203,+82 51-331-5445,11,100.0
-115,무니,서울 강남구 도산대로72길 16,37.52291,127.04545,일식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/muni,가격대 높음,4.0,17,+82 2-511-1303,1,100.0
-116,비움,서울 강남구 학동로97길 41,37.52239,127.05439,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/bium,가격대 높음,5.0,1,+82 2-549-8889,1,100.0
-117,비비재,부산 수영구 남천바다로10번길 45,35.14795,129.11142,비빔밥,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/bibijae,가격대 낮음,3.9,34,+82 70-8287-1035,6,100.0
-118,라미띠에,서울 강남구 도산대로67길 30,37.52591,127.04455,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/l-amitie,,4.4,38,+82 2-546-9621,1,100.0
-119,소공간,부산 해운대구 해운대해변로298번길 47,35.16168,129.16738,코리안 컨템퍼러리,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/sogonggan,가격대 보통,4.7,12,+82 10-5191-9002,14,100.0
-120,하네,서울 강남구 언주로172길 14,37.5275808,127.0348773,스시,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/hane,가격대 높음,4.3,21,+82 10-9773-0887,1,100.0
-121,무오키,서울 강남구 학동로55길 12-12,37.51896,127.04222,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/muoki,,4.4,54,+82 10-2948-4171,1,100.0
-121,무오키,서울 강남구 학동로55길 12-12,37.51896,127.04222,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/muoki,,4.4,54,+82 10-2948-4171,1,100.0
-121,무오키,서울 강남구 학동로55길 12-12,37.51896,127.04222,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/muoki,,4.4,54,+82 10-2948-4171,1,100.0
-121,무오키,서울 강남구 학동로55길 12-12,37.51896,127.04222,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/muoki,,4.4,54,+82 10-2948-4171,1,100.0
-122,필동면옥,서울 중구 서애로 26,37.56035,126.99689,냉면,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/pildong-myeonok,가격대 낮음,3.7,784,+82 2-2266-2611,23,100.0
-123,소설한남,서울 용산구 한남대로20길 21-18,37.53528,127.00914,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/soseoul-hannam,가격대 높음,4.1,36,+82 2-797-5995,11,100.0
-124,현우동,서울 강남구 논현로149길 53,37.51698,127.02429,우동,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/hyun-udon,가격대 낮음,3.7,220,+82 2-515-3622,1,100.0
-125,델리봉,부산 수영구 민락로27번길 4,35.15758,129.12153,프렌치,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/delibong,가격대 보통,4.9,10,,6,100.0
-126,RMW Carne,서울 용산구 대사관로5길 12,37.53483,127.00085,스테이크하우스,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/rmw-carne,가격대 보통,3.5,28,+82 10-5068-4133,11,100.0
-127,후제,서울 강남구 논현로24길 21,37.48207,127.04473,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/fuje,가격대 보통,4.9,19,+82 70-4837-4997,1,100.0
-128,차오란,부산 해운대구 달맞이길 30,35.16021,129.16988,"중식, 칸토니즈",https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/chaoran,가격대 높음,2.9,28,+82 51-922-1250,14,100.0
-129,호라파,서울 종로구 자하문로 37-1,37.57938,126.9711,타이,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/horapa,가격대 낮음,4.6,78,+82 2-730-0215,9,100.0
-130,스와니예,서울 강남구 강남대로 652,37.51933,127.01903,이노베이티브,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/soigne,가격대 높음,,0,+82 2-3477-9386,1,100.0
-131,램지,부산 수영구 광안해변로284번길 38,35.15333,129.12528,프렌치,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/ramsey,,4.3,7,+82 10-9406-3135,6,100.0
-132,토라후구가,부산 해운대구 좌동순환로 480,35.16417,129.1699,복어,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/torafuguga,가격대 보통,5.0,4,+82 51-743-5432,14,100.0
-133,능동미나리,서울 용산구 한강대로40길 28,37.53008,126.97078,곰탕,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/neungdong-minari,가격대 낮음,4.3,496,+82 50-71388-1035,11,100.0
-134,레썽스,부산 수영구 광남로22번길 17,35.14477,129.11062,프렌치,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/l-essence,가격대 보통,4.7,11,+82 10-9585-7050,6,100.0
-135,딤타오,부산 해운대구 우동1로 25,35.16394,129.15647,딤섬,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/dim-tao,가격대 낮음,4.0,223,+82 51-741-3638,14,100.0
-136,솔밤,서울 강남구 학동로 231,37.516,127.03378,"컨템퍼러리, 코리안 컨템퍼러리",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/solbam,가격대 높음,4.5,23,+82 70-4405-7788,1,100.0
-137,합천국밥집,부산 남구 용호로 237,35.11124,129.11127,"돼지국밥, 한식",https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/hapcheon-gukbapjip,가격대 낮음,3.2,212,+82 51-628-4898,19,100.0
-138,물랑,서울 종로구 자하문로16길 8,37.5814682,126.9718836,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/moulin,,4.2,36,+82 70-4404-7978,9,100.0
-139,담미옥,부산 부산진구 복지로 15,35.15186,129.02054,냉면,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/damiok,가격대 낮음,3.9,65,+82 10-7704-5318,8,100.0
-140,피오또,부산 해운대구 달맞이길117번가길 219,35.16127,129.1833,이탤리언,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/fiotto,가격대 보통,3.5,15,+82 51-744-5309,14,100.0
-141,정면,서울 광진구 능동로13길 88,37.54551,127.06866,국수,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/jeongmyeon,가격대 낮음,4.6,172,+82 10-9974-3592,25,100.0
-142,러브얼스,부산 수영구 광안로49번길 32-1,35.15644,129.1185,비건,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/loveurth,가격대 낮음,4.6,54,+82 70-4647-2420,6,100.0
-143,무오키,서울 강남구 학동로55길 12-12,37.51896,127.04222,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/muoki,,4.4,54,+82 10-2948-4171,1,100.0
-143,무오키,서울 강남구 학동로55길 12-12,37.51896,127.04222,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/muoki,,4.4,54,+82 10-2948-4171,1,100.0
-143,무오키,서울 강남구 학동로55길 12-12,37.51896,127.04222,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/muoki,,4.4,54,+82 10-2948-4171,1,100.0
-143,무오키,서울 강남구 학동로55길 12-12,37.51896,127.04222,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/muoki,,4.4,54,+82 10-2948-4171,1,100.0
-144,미토우,서울 강남구 도산대로70길 24,37.52206,127.04502,일식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/mitou,가격대 높음,4.2,14,+82 10-7286-9914,1,100.0
-145,팔레트,부산 해운대구 달맞이길65번길 154,35.15659,129.17844,컨템퍼러리,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/palate,가격대 보통,4.3,25,+82 51-626-2364,14,100.0
-146,해목,부산 해운대구 구남로24번길 8,35.16174,129.15977,일식,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/haemok,가격대 보통,4.1,669,+82 51-746-3730,14,100.0
-147,피리피리,부산 수영구 무학로33번길 54,35.16379,129.11807,타이,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/pili-pili,가격대 낮음,,0,+82 10-7997-4143,6,100.0
-148,엘픽,서울 강남구 도산대로78길 25,37.52237,127.04659,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/elpic,,4.4,34,+82 10-6556-9757,1,100.0
-149,오프닝,서울 강남구 도산대로34길 22,37.51844,127.03105,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/opnng,,4.5,29,+82 2-2088-5844,1,100.0
-150,홍연,대구 수성구 달구벌대로650길 51,37.56441,126.9797,중식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/hong-yuan,가격대 높음,4.5,27,+82 2-317-0494,26,100.0
-151,삼원가든,서울 강남구 언주로 835,37.52499,127.03297,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/samwon-garden,가격대 보통,,0,+82 2-548-3030,1,100.0
-152,기와강,서울 강남구 논현로152길 9,37.52107,127.02893,코리안 컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/giwakang,가격대 높음,5.0,2,+82 2-517-2511,1,100.0
-153,구복만두,서울 용산구 두텁바위로 7,37.54501,126.97318,딤섬,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/goobok-mandu,가격대 낮음,3.7,421,+82 2-797-8656,11,100.0
-154,야키토리 온정,부산 부산진구 동천로108번길 9-7,35.15866,129.06284,야키토리,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/yakitori-onjung,가격대 낮음,4.5,41,+82 10-2281-9293,8,92.0
-155,팀호완,서울 강남구 봉은사로86길 30,37.5115769,127.0567982,딤섬,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/tim-ho-wan,가격대 낮음,3.4,312,+82 2-6207-3082,1,100.0
-156,소넷,서울 강남구 선릉로157길 33,37.52628,127.03704,프렌치 컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/sonnet-1241886,가격대 보통,,0,+82 2-6953-5999,1,
-157,봉밀가,서울 강남구 선릉로 664,37.51598,127.0424,냉면,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/bongmilga,가격대 낮음,4.4,194,+82 2-546-2305,1,100.0
-158,원 디그리 노스,서울 강남구 학동로43길 8,37.516773,127.037424,"아시안, 싱가포리안",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/one-degree-north,가격대 낮음,,0,+82 70-4333-8884,1,
-159,이치류,서울 마포구 잔다리로3안길 44,37.55061,126.91913,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/ichiryu,가격대 낮음,4.2,93,+82 2-3144-1312,3,100.0
-160,오니바,서울 강남구 도산대로75길 15,37.52515,127.0457,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/onyva,가격대 보통,3.9,14,+82 2-516-3352,1,100.0
-161,강민철 레스토랑,서울 강남구 도산대로63길 18,37.5249,127.04365,프렌치 컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/kang-minchul-restaurant,가격대 높음,4.5,10,+82 2-545-2511,1,93.0
-162,꽃밥에피다,서울 종로구 인사동16길 3-6,37.57535,126.98404,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/a-flower-blossom-on-the-rice,가격대 보통,,0,+82 2-732-0276,9,100.0
-163,나가하마 만게츠,부산 해운대구 우동1로 57,35.16664,129.15748,라멘,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/nagahama-mangetsu,가격대 낮음,4.2,469,+82 51-731-0886,14,93.0
-164,랑빠스 81,서울 마포구 동교로30길 17-1,37.56018,126.92521,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/l-empasse-81,가격대 보통,,0,+82 70-7779-8181,3,
-165,꿉당,서울 서초구 강남대로 615,37.5166307,127.0188926,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/ggupdang,가격대 낮음,4.1,273,+82 2-545-9600,5,100.0
-166,팔레드 신,서울 중구 퇴계로 67,37.55983,126.97949,중식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/palais-de-chine,,,0,+82 2-317-4001,23,
-167,백년옥,서울 서초구 남부순환로 2407,37.48115,127.01374,두부,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/baecnyunok,가격대 낮음,3.0,290,+82 2-523-2860,5,100.0
-168,자하 손만두,서울 종로구 백석동길 12,37.59309,126.96603,만두,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/jaha-son-mandu,가격대 낮음,,0,+82 2-379-2648,9,
-169,야키토리 키유,서울 마포구 도화4길 31,37.54059,126.95149,야키토리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/yakitori-kiyu,가격대 보통,4.8,13,+82 2-702-1120,3,92.0
-170,무궁화,서울 중구 을지로 30,37.56533,126.981,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/mugunghwa,가격대 높음,4.3,31,+82 2-317-7061,23,100.0
-171,라망 시크레,서울 중구 퇴계로 67,37.55983,126.97949,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/l-amant-secret,가격대 높음,4.3,54,+82 2-317-4003,23,91.0
-172,외고집 설렁탕,서울 강남구 삼성로 555,37.51097,127.05388,설렁탕,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/oegojip-sellongtang,가격대 낮음,,0,+82 2-567-5225,1,
-173,슌사이 쿠보,부산 북구 양달로4번길 17,35.24088,129.01472,"장어, 일식",https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/shunsai-kubo,가격대 낮음,,0,+82 51-365-2959,27,91.0
-174,라연,서울 중구 동호로 249,37.555813,127.00517,"한식, 컨템퍼러리",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/la-yeon,가격대 높음,4.3,52,+82 2-2230-3367,23,100.0
-175,셰누 프라이빗 키친,서울 용산구 녹사평대로 210-6,37.53634,126.98734,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/chez-nous,가격대 보통,,0,+82 70-8624-8907,11,
-176,임병주 산동 칼국수,서울 서초구 강남대로37길 65,37.48458,127.02988,칼국수,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/limbyungjoo-sandong-kalguksu,가격대 낮음,3.3,444,+82 2-3473-7972,5,95.0
-177,일 베키오,서울 마포구 월드컵북로 332-12,37.5763,126.89462,이탤리언,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/il-vecchio,가격대 보통,,0,+82 2-302-0944,3,
-178,스시 마츠모토,서울 강남구 도산대로75길 24,37.52535,127.04573,스시,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/sushi-matsumoto-1195338,가격대 높음,,0,+82 2-543-4334,1,
-179,툭툭 누들 타이,서울 마포구 성미산로 161-8,37.56514,126.92401,타이,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/tuktuk-noodle-thai,가격대 낮음,,0,+82 70-4407-5130,3,
-180,레스쁘아 뒤 이부,서울 강남구 선릉로152길 33,37.5245,127.04227,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/l-espoir-du-hibou,,3.2,62,+82 2-517-6034,1,75.0
-181,온지음,서울 종로구 효자로 49,37.58048,126.97345,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/onjium,가격대 높음,4.4,27,+82 2-6952-0024,9,100.0
-182,보르고 한남,서울 용산구 이태원로54길 31,37.53687,127.00187,이탤리언,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/borgo-hannam,,3.7,23,+82 2-6082-2727,11,91.0
-183,하동관,서울 중구 명동9길 12,37.56439,126.98501,곰탕,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/hadongkwan,가격대 낮음,2.6,416,+82 2-776-5656,23,100.0
-184,해운대 암소갈비집,부산 해운대구 해운대해변로 333,35.16324,129.16629,바비큐,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/haeundae-rib-barbecue-restaurant,가격대 보통,,0,+82 51-746-0033,14,
-185,비스트로 드 욘트빌,서울 강남구 선릉로158길 13-7,37.52602,127.04126,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/bistrot-de-yountville,가격대 보통,4.0,62,+82 2-541-1550,1,78.0
-186,우래옥,서울 중구 창경궁로 62-29,37.56815,126.99866,냉면,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/woo-lae-oak,가격대 낮음,4.1,1471,+82 2-2265-0151,23,100.0
-187,유 유안,서울 종로구 새문안로 97,37.57049,126.97545,중식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/yu-yuan,가격대 높음,,0,+82 2-6388-5500,9,
-188,텅 앤 그루브 조인트,서울 용산구 보광로60길 7,37.53404,126.99451,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/tongue-groove-joint,가격대 보통,,0,+82 2-790-7036,11,
-189,볼트 스테이크하우스,서울 강남구 압구정로72길 22,37.52496,127.04496,스테이크하우스,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/vault-steakhouse,가격대 높음,3.5,84,+82 2-544-9235,1,95.0
-190,보름쇠,서울 강남구 테헤란로81길 36,37.509328,127.056611,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/boreumsae,가격대 보통,3.4,38,+82 2-569-9967,1,100.0
-191,봉산옥,서울 서초구 반포대로8길 5-6,37.48336,127.01242,만두,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/bongsanok,가격대 낮음,3.6,250,+82 2-525-2282,5,100.0
-192,버드나무집,서울 서초구 효령로 434,37.48907,127.03118,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/budnamujip,가격대 보통,3.6,129,+82 2-3473-4167,5,100.0
-193,옥동식,서울 마포구 양화로7길 44-10,37.55261,126.91449,돼지국밥,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/okdongsik,가격대 낮음,3.9,498,+82 10-5571-9915,3,100.0
-194,피에르 가니에르,서울 중구 을지로 30,37.56529,126.98103,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/pierre-gagnaire,가격대 높음,,0,+82 2-317-7181,23,
-195,만족오향족발,서울 중구 서소문로 134-7,37.56324,126.97598,족발,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/manjok-ohyang-jokbal,가격대 낮음,3.9,349,+82 2-753-4755,23,100.0
-196,삼청동 수제비,서울 종로구 삼청로 101-1,37.58449,126.89189,수제비,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/samcheongdong-sujebi,가격대 낮음,3.1,638,+82 2-735-2965,9,92.0
-197,야키토리 묵,서울 마포구 성미산로 165-1,37.56461,126.92449,야키토리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/yakitori-mook,가격대 낮음,4.6,17,+82 70-8835-3433,3,80.0
-198,제로 컴플렉스,서울 용산구 서빙고로59길 11-8,37.52079,126.99285,이노베이티브,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/zero-complex,가격대 높음,4.1,57,+82 2-532-0876,11,92.0
-199,알라 프리마,서울 강남구 학동로17길 13,37.51346,127.02602,이노베이티브,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/alla-prima,가격대 높음,4.5,73,+82 2-511-2555,1,91.0
-200,오스테리아 오르조,서울 용산구 한남대로20길 47,37.53486,127.00946,이탤리언,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/osteria-orzo,가격대 보통,4.3,275,+82 2-322-0801,11,100.0
-201,광화문 국밥,서울 중구 세종대로21길 53,37.5689,126.97541,돼지국밥,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/gwanghwamun-gukbap,가격대 낮음,4.0,436,+82 2-738-5688,23,71.0
-202,황생가 칼국수,서울 종로구 북촌로5길 78,37.58003,126.98065,칼국수,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/hwangsaengga-kalguksu,가격대 낮음,,0,+82 2-739-6334,9,
-203,아웃트로 바이 비토,부산 수영구 민락본동로19번길 18,35.15835,129.12786,유러피언,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/outro-by-vito,가격대 보통,,0,+82 51-758-7123,6,
-204,차애전 할매 칼국수,부산 연제구 과정로191번가길 70,35.18716,129.10249,칼국수,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/cha-ae-jeon-halmae-kalguksu,가격대 낮음,,0,+82 51-751-9639,28,
-205,오레노 라멘,서울 마포구 독막로8길 16,37.54744,126.91729,라멘,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/oreno-ramen,가격대 낮음,,0,+82 2-322-3539,3,
-206,나인스 게이트,서울 중구 소공로 106,37.5644,126.97969,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/the-ninth-gate,,,0,+82 2-317-0366,23,
-207,레스토랑 오와이,서울 강남구 선릉로148길 48-12,37.522219,127.04329,"프렌치, 컨템퍼러리",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/restaurant-oy,가격대 높음,4.4,24,+82 2-515-7250,1,93.0
-208,비채나,서울 송파구 올림픽로 300,37.5126,127.10253,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/bicena,,4.2,68,+82 2-3213-1261,18,100.0
-209,꼼 모아,서울 용산구 신흥로 56,37.54344,126.9877,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/comme-moa,가격대 보통,3.8,62,+82 2-6217-5252,11,86.0
-210,으뜸 이로리바타,부산 수영구 수영로408번길 20,35.1373479,129.0292733,일식,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/eutteum-iroribata,가격대 보통,4.8,37,+82 10-6640-2884,6,93.0
-211,고료리 켄,서울 강남구 언주로152길 15-3,37.52298,127.03478,"컨템퍼러리, 재패니즈 컨템퍼러리",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/goryori-ken,가격대 높음,4.2,8,+82 2-511-7809,1,89.0
-212,레스토랑 알렌,서울 강남구 테헤란로 231,37.5036,127.0418,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/restaurant-allen,가격대 높음,4.7,20,+82 2-6985-7214,1,92.0
-213,금수복국,부산 해운대구 중동1로43번길 23,35.16242,129.1645,복어,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/kumsu-bokguk,가격대 보통,3.9,471,+82 51-742-3600,14,100.0
-214,벽제갈비,서울 송파구 양재대로71길 1-4,37.51007,127.12619,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/byeokje-galbi,,3.0,54,+82 2-415-5522,18,100.0
-215,키라메키,서울 강남구 도산대로28길 18,37.51808,127.02822,일식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/kirameki,가격대 높음,5.0,4,+82 10-3894-2356,1,100.0
-216,디 템포레,서울 용산구 한남대로 37,37.532213,127.0081086,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/de-tempore,가격대 보통,4.1,38,+82 70-4848-6359,11,89.0
-217,중화복춘 살롱,서울 마포구 연남로 10,37.56068,126.92335,중식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/zhonghuafuchun-salon,가격대 보통,,0,+82 10-5124-2207,3,
-218,명동 교자,서울 중구 명동10길 29,37.56347,126.984552,칼국수,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/myeongdong-kyoja,가격대 낮음,,0,+82 2-776-5348,23,
+id,name,address,latitude,longitude,category,page,price,rating,review_cnt,call_number,city_id
+1,소넷,서울 강남구 선릉로157길 33,37.52628,127.03704,프렌치 컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/sonnet-1241886,가격대 보통,3.7,3.0,02-6953-5999,1
+2,묵정,서울 중구 퇴계로48길 17,37.56181,127.00053,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/mukjung,가격대 보통,4.4,5.0,,7
+3,샤콘느,서울 강남구 논현로97길 23,37.50274,127.03376,프렌치 컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/chaconne,가격대 약간 높음,5.0,2.0,010-2693-6392,1
+4,평양집,부산 북구 금곡대로20번길 21,35.21213,129.00586,만두,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/pyeongyangjip,가격대 낮음,,0.0,051-331-5455,27
+5,울트라 바이트,부산 수영구 민락로14번길 28,35.15773,129.12287,컨템퍼러리,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/ultra-bite,가격대 낮음,5.0,1.0,0503-7151-1563,6
+6,토오루,부산 부산진구 동성로49번길 38-1,35.15513,129.06638,일식,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/tooru,가격대 보통,4.2,11.0,,8
+7,오일제,서울 용산구 한강대로62다길 29,37.53254,126.97473,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/oilje,가격대 낮음,4.1,16.0,070-8831-5534,11
+8,후제,서울 강남구 논현로24길 21,37.48207,127.04473,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/fuje,가격대 보통,4.9,19.0,,1
+9,두리,서울 용산구 원효로63길 27,37.53795,126.96352,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/doori,가격대 약간 높음,5.0,2.0,0507-1409-3655,11
+10,오니바,서울 강남구 도산대로75길 15,37.52515,127.0457,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/onyva,가격대 보통,3.9,14.0,02-516-3352,1
+11,비움,서울 강남구 학동로97길 41,37.52239,127.05439,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/bium,가격대 높음,5.0,1.0,02-549-8889,1
+12,기와강,서울 강남구 논현로152길 9,37.52107,127.02893,코리안 컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/giwakang,가격대 높음,5.0,2.0,02-517-2511,1
+13,소바키리 스즈,서울 중구 동호로12길 98,37.55949,127.01243,소바,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/sobakeeri-suzu,가격대 낮음,3.7,17.0,02-2256-6986,7
+14,고사리 익스프레스,서울 중구 퇴계로85길 12-10,37.56626,127.02001,비건,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/gosari-express,가격대 낮음,4.5,46.0,02-2039-3140,7
+15,서교난면방,서울 마포구 동교로12길 16,37.55359,126.91231,국수,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/seokyonanmyunbang,가격대 낮음,4.3,43.0,0507-1487-0943,3
+16,곰탕랩,서울 강남구 도산대로 153,37.51883,127.02521,곰탕,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/gomtang-lab,가격대 낮음,3.9,23.0,02-517-4656,1
+17,옥돌현옥,서울 송파구 오금로36길 26-1,37.50153,127.12408,냉면,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/okdol-heyonok,가격대 낮음,4.2,121.0,02-404-4824,18
+18,정짓간,부산 사하구 비봉로 6,35.09561,128.96248,돼지국밥,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/jeongjitgan,가격대 낮음,4.7,30.0,0507-1381-2901,30
+19,미필담,서울 마포구 성지3길 22,37.54658,126.91419,만두,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/mipildam,가격대 낮음,4.4,72.0,,3
+20,마나오,서울 용산구 한남대로21길 18,37.53411,127.00613,타이,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/manao,가격대 보통,3.5,30.0,,11
+21,한월관,부산 수영구 광안로62번길 10,35.15469,129.11854,곰탕,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/hanwolgwan,가격대 낮음,4.6,49.0,051-711-7025,6
+22,본 앤 브레드,부산 해운대구 해운대해변로 296,35.16013,129.16468,스테이크하우스,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/born-and-bred-1213375,가격대 높음,4.1,8.0,051-749-2400,14
+23,니시무라멘,서울 마포구 동교로 265,37.56337,126.92526,라멘,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/nishimuramen,가격대 낮음,4.1,83.0,0507-1494-1389,3
+24,팀호완,서울 강남구 봉은사로86길 30,37.5115769,127.0567982,딤섬,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/tim-ho-wan,가격대 낮음,3.4,312.0,0507-1374-3082,1
+25,주052,서울 성동구 고산자로14길 26,37.56344,127.03766,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/sool052,가격대 보통,,0.0,02-2281-0343,2
+26,야키토리 묵,서울 마포구 성미산로 165-1,37.56461,126.92449,야키토리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/yakitori-mook,가격대 낮음,4.2,115.0,070-8835-3433,3
+27,도림,서울 중구 을지로 30,37.56531,126.981,중식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/toh-lim,가격대 높음,4.6,28.0,02-317-7101,7
+28,트리드,서울 강남구 선릉로162길 16,37.5267383,127.0416702,"컨템퍼러리, 아메리칸 컨템퍼러리",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/trid,가격대 약간 높음,2.9,87.0,02-512-8312,1
+29,유 유안,서울 종로구 새문안로 97,37.57049,126.97545,중식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/yu-yuan,가격대 높음,4.0,54.0,02-6388-5500,9
+30,외고집 설렁탕,서울 강남구 삼성로 555,37.51097,127.05388,설렁탕,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/oegojip-sellongtang,가격대 낮음,3.7,88.0,02-567-5225,1
+31,레스토랑 오와이,서울 강남구 선릉로148길 48-12,37.522219,127.04329,"프렌치, 컨템퍼러리",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/restaurant-oy,가격대 높음,4.4,24.0,02-515-7250,1
+32,온지음,서울 종로구 효자로 49,37.58048,126.97345,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/onjium,가격대 높음,4.4,27.0,02-6952-0024,9
+33,피에르 가니에르,서울 중구 을지로 30,37.56529,126.98103,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/pierre-gagnaire,가격대 높음,4.0,34.0,02-317-7181,7
+34,토라후구가,부산 해운대구 좌동순환로 480,35.16417,129.1699,복어,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/torafuguga,가격대 보통,5.0,4.0,051-743-5432,14
+35,하쿠시,서울 강남구 언주로157길 8-4,37.52414,127.03227,일식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/hakusi,가격대 높음,5.0,1.0,010-7316-6212,1
+36,숙수도가,서울 성북구 동소문로17길 28,37.5935,127.01539,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/sooksoodoga,가격대 보통,,0.0,010-8231-2627,22
+37,합정옥,서울 마포구 양화로1길 21,37.54944,126.91037,곰탕,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/hapjeongok,가격대 낮음,3.7,115.0,02-322-4822,3
+38,텐지몽,서울 강남구 학동로97길 41,37.52237,127.05429,일식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/tenjimon,가격대 보통,4.0,10.0,010-7449-3010,1
+39,쥬에,서울 용산구 독서당로 124-7,37.53744,127.01277,중식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/jue,가격대 높음,4.2,82.0,02-798-9700,11
+40,에빠뉘,서울 강남구 선릉로146길 33,37.52187,127.04254,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/epanoui,가격대 약간 높음,4.0,16.0,02-548-2020,1
+41,베이스 이즈 나이스,서울 마포구 도화2길 20,37.53958,126.94908,베지테리안,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/base-is-nice,가격대 낮음,4.3,47.0,,3
+42,진진,서울 마포구 월드컵북로1길 60,37.55777,126.91324,중식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/jin-jin,가격대 보통,3.6,137.0,070-5035-8878,3
+43,무궁화,서울 중구 을지로 30,37.56533,126.981,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/mugunghwa,가격대 높음,4.3,31.0,02-317-7061,7
+44,만족오향족발,서울 중구 서소문로 134-7,37.56324,126.97598,족발,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/manjok-ohyang-jokbal,가격대 낮음,3.9,349.0,02-753-4755,7
+45,유림면,서울 중구 서소문로 139-1,37.56419,126.9761,메밀국수,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/yurimmyeon,가격대 낮음,,0.0,02-755-0659,7
+46,봉산옥,서울 서초구 반포대로8길 5-6,37.48336,127.01242,만두,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/bongsanok,가격대 낮음,3.6,250.0,02-525-2282,5
+47,테판,서울 용산구 소월로 322,37.53929,126.9971,테판야키,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/teppan,가격대 약간 높음,4.3,61.0,02-799-8272,11
+48,본 앤 브레드,서울 성동구 마장로42길 1,37.56697,127.04468,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/born-and-bred,가격대 약간 높음,3.4,38.0,02-2294-5005,2
+49,미진,서울 종로구 종로 19,37.5708,126.97985,메밀국수,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/mijin,가격대 낮음,3.8,780.0,02-732-1954,9
+50,봉밀가,서울 강남구 선릉로 664,37.51598,127.0424,냉면,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/bongmilga,가격대 낮음,4.4,194.0,02-546-2305,1
+51,무오키,서울 강남구 학동로55길 12-12,37.51896,127.04222,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/muoki,가격대 약간 높음,4.4,54.0,010-2948-4171,1
+52,비스트로 드 욘트빌,서울 강남구 선릉로158길 13-7,37.52602,127.04126,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/bistrot-de-yountville,가격대 보통,4.0,62.0,02-541-1550,1
+53,보름쇠,서울 강남구 테헤란로81길 36,37.509328,127.056611,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/boreumsae,가격대 보통,3.4,38.0,02-569-9967,1
+54,나인스 게이트,서울 중구 소공로 106,37.5644,126.97969,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/the-ninth-gate,가격대 약간 높음,4.2,33.0,02-317-0366,7
+55,더 그린테이블,서울 종로구 율곡로 83,37.57781,126.98829,프렌치 컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/the-green-table,가격대 약간 높음,4.4,15.0,02-591-2672,9
+56,텅 앤 그루브 조인트,서울 용산구 보광로60길 7,37.53404,126.99451,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/tongue-groove-joint,가격대 보통,4.4,30.0,02-790-7036,11
+57,무니,서울 강남구 도산대로72길 16,37.52291,127.04545,일식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/muni,가격대 높음,4.0,17.0,02-511-1303,1
+58,온,서울 강남구 도산대로92길 42,37.52192,127.04938,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/on565623,가격대 약간 높음,4.8,12.0,02-547-0467,1
+59,스테이,서울 송파구 올림픽로 300,37.51271,127.10258,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/stay,가격대 높음,3.6,86.0,02-3213-1230,18
+60,마포옥,서울 마포구 토정로 312,37.53983,126.94332,설렁탕,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/mapo-ok,가격대 낮음,,0.0,02-716-6661,3
+61,오레노 라멘,서울 마포구 독막로8길 16,37.54744,126.91729,라멘,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/oreno-ramen,가격대 낮음,4.4,977.0,02-322-3539,3
+62,교양식사,서울 용산구 이태원로 238,37.53592,126.99994,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/gyoyang-siksa,가격대 낮음,3.8,53.0,010-7601-4041,11
+63,스바루,서울 서초구 방배중앙로21길 7,37.49234,126.98611,소바,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/subaru,가격대 낮음,3.9,56.0,02-596-4882,5
+64,비채나,서울 송파구 올림픽로 300,37.5126,127.10253,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/bicena,가격대 약간 높음,4.2,68.0,02-3213-1261,18
+65,황금콩밭,서울 마포구 마포대로16길 9,37.5509,126.9567,두부,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/hwanggeum-kongbat,가격대 낮음,3.8,258.0,02-313-2952,3
+66,남포면옥,서울 중구 을지로3길 24,37.567269,126.981609,냉면,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/nampo-myeonok,가격대 낮음,3.0,362.0,02-777-3131,7
+67,황생가 칼국수,서울 종로구 북촌로5길 78,37.58003,126.98065,칼국수,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/hwangsaengga-kalguksu,가격대 낮음,3.5,501.0,02-739-6334,9
+68,줄라이,서울 서초구 동광로 164,37.49475,127.00008,프렌치 컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/july,가격대 약간 높음,4.2,58.0,02-534-9544,5
+69,명동 교자,서울 중구 명동10길 29,37.56347,126.984552,칼국수,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/myeongdong-kyoja,가격대 낮음,3.5,1898.0,02-776-5348,7
+70,꼼 모아,서울 용산구 신흥로 56,37.54344,126.9877,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/comme-moa,가격대 보통,4.0,20.0,02-6217-5252,11
+71,크리스탈 제이드,서울 중구 남대문로7길 16,37.564311,126.981212,중식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/crystal-jade,가격대 보통,3.8,112.0,02-3789-8088,7
+72,만두집,서울 강남구 압구정로 338,37.52785,127.03898,만두,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/mandujip,가격대 낮음,3.9,161.0,02-544-3710,1
+73,진미식당,서울 마포구 마포대로 186-6,37.55055,126.95577,게장,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/jinmi-sikdang,가격대 보통,3.6,180.0,02-3211-4468,3
+74,대성집,서울 종로구 사직로 5,37.57269,126.96091,도가니탕,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/daesungjip,가격대 낮음,4.2,295.0,02-735-4259,9
+75,할매집,서울 종로구 사직로12길 1-5,37.5755506,126.9715631,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/halmaejip,가격대 낮음,2.9,133.0,02-735-2608,9
+76,도우룸,서울 서초구 동광로 99,37.49379,126.99333,이탤리언,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/doughroom,가격대 보통,4.0,20.0,02-535-9386,5
+77,버드나무집,서울 서초구 효령로 434,37.48907,127.03118,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/budnamujip,가격대 보통,3.7,60.0,02-3473-4167,5
+78,개성만두 궁,서울 종로구 인사동10길 11-3,37.57423,126.98539,만두,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/gaeseong-mandu-koong,가격대 낮음,,0.0,02-733-9240,9
+79,삼청동 수제비,서울 종로구 삼청로 101-1,37.58449,126.89189,수제비,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/samcheongdong-sujebi,가격대 낮음,3.3,120.0,02-735-2965,9
+80,정인면옥,서울 영등포구 국회대로76길 10,37.5307,126.92167,냉면,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/jungin-myeonok,가격대 낮음,3.6,474.0,02-2683-2615,29
+81,랑빠스 81,서울 마포구 동교로30길 17-1,37.56018,126.92521,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/l-empasse-81,가격대 보통,3.8,42.0,070-7779-8181,3
+82,곰바위,서울 강남구 영동대로115길 10,37.51485,127.05885,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/gom-ba-wie,가격대 보통,3.3,76.0,02-511-0068,1
+83,융캉찌에,부산 수영구 광안해변로277번길 10,35.15639,129.12424,"국수, 타이완",https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/yongkangzzie,가격대 낮음,,0.0,051-758-6011,6
+84,슌사이 쿠보,부산 북구 양달로4번길 17,35.24088,129.01472,"장어, 일식",https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/shunsai-kubo,가격대 낮음,,0.0,051-365-2959,27
+85,바오하우스,부산 부산진구 서전로38번길 62-9,35.15488,129.06335,타이완,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/bao-haus,가격대 낮음,3.9,373.0,010-4888-1041,8
+86,합천국밥집,부산 남구 용호로 237,35.11124,129.11127,"돼지국밥, 한식",https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/hapcheon-gukbapjip,가격대 낮음,3.2,211.0,051-622-4898,19
+87,델리봉,부산 수영구 민락로27번길 4,35.15758,129.12153,프렌치,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/delibong,가격대 보통,4.9,10.0,,6
+88,언양불고기 부산집,부산 수영구 남천바다로 32,35.14788,129.11357,불고기,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/eonyang-bulgogi-busanjip,가격대 보통,3.5,113.0,051-754-1004,6
+89,나막집,부산 남구 분포로 145,35.13461,129.11187,돼지국밥,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/namakzip,가격대 낮음,4.0,41.0,,19
+90,피오또,부산 해운대구 달맞이길117번가길 219,35.16127,129.1833,이탤리언,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/fiotto,가격대 보통,3.5,15.0,,14
+91,담택,서울 마포구 동교로12안길 51,37.555015,126.923422,라멘,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/damtaek,가격대 낮음,4.4,562.0,02-336-0974,3
+92,호라파,서울 종로구 자하문로 37-1,37.57938,126.9711,타이,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/horapa,가격대 낮음,4.6,78.0,02-730-0215,9
+93,제로 베이스,부산 수영구 민락로33번길 17,35.15741,129.12097,일식,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/zero-base,가격대 약간 높음,4.8,4.0,,6
+94,딤타오,부산 해운대구 우동1로 25,35.16394,129.15647,딤섬,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/dim-tao,가격대 낮음,4.0,223.0,051-741-3638,14
+95,솔밤,서울 강남구 학동로 231,37.516,127.03378,"컨템퍼러리, 코리안 컨템퍼러리",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/solbam,가격대 높음,4.5,23.0,070-4405-7788,1
+96,리북방,서울 마포구 마포대로1길 16,37.5396777,126.9431187,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/lee-buk-bang,가격대 보통,,0.0,02-720-2345,3
+97,사루카메,서울 마포구 연남로 15,37.56103,126.92267,라멘,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/sarukame,가격대 낮음,,0.0,070-999-9999,3
+98,아르프,부산 영도구 태종로99번길 35,35.09293,129.04258,비건,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/arp,가격대 낮음,,0.0,,16
+99,레스토랑 주은,서울 종로구 경희궁길 36,37.57276,126.96991,"한식, 클래식 퀴진",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/restaurant-jueun,가격대 약간 높음,4.3,17.0,0502-5550-9312,9
+100,원 디그리 노스,서울 강남구 학동로43길 8,37.516773,127.037424,"아시안, 싱가포리안",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/one-degree-north,가격대 낮음,3.9,114.0,070-4333-8884,1
+101,정면,서울 광진구 능동로13길 88,37.54551,127.06866,국수,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/jeongmyeon,가격대 낮음,4.6,173.0,070-4798-3592,25
+102,셰누 프라이빗 키친,서울 용산구 녹사평대로 210-6,37.53634,126.98734,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/chez-nous,가격대 보통,4.8,8.0,070-8624-8907,11
+103,소수헌,서울 중구 만리재로21길 8,37.55294,126.9634,스시,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/sosuheon,가격대 높음,4.9,9.0,,7
+104,뛰뚜아멍,서울 성동구 광나루로11길 20,37.54969,127.0666,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/tutoiement,가격대 높음,5.0,2.0,02-499-9056,2
+105,비비재,부산 수영구 남천바다로10번길 45,35.14795,129.11142,비빔밥,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/bibijae,가격대 낮음,3.9,34.0,070-8287-1035,6
+106,스시 마츠모토,서울 강남구 도산대로75길 24,37.52535,127.04573,스시,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/sushi-matsumoto-1195338,가격대 높음,5.0,8.0,02-543-4334,1
+107,코자차,서울 강남구 학동로97길 17,37.52083,127.05519,아시안,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/kojacha,가격대 높음,3.4,12.0,,1
+108,키라메키,서울 강남구 도산대로28길 18,37.51808,127.02822,일식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/kirameki,가격대 높음,5.0,4.0,010-3894-2356,1
+109,리알토,서울 강남구 삼성로149길 13,37.52318,127.04655,이탤리언,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/rialto,가격대 보통,4.3,32.0,02-544-4761,1
+110,소울,서울 용산구 신흥로26길 35,37.54533,126.98443,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/soul-dining,가격대 약간 높음,4.1,29.0,02-318-7685,11
+111,꿉당,서울 서초구 강남대로 615,37.5166307,127.0188926,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/ggupdang,가격대 낮음,4.1,274.0,02-545-9600,5
+112,면서울,서울 강남구 선릉로 805,37.52416,127.03906,국수,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/myeon-seoul,가격대 낮음,4.0,77.0,010-8377-5156,1
+113,차오란,부산 해운대구 달맞이길 30,35.16021,129.16988,"중식, 칸토니즈",https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/chaoran,가격대 높음,2.9,28.0,051-922-1250,14
+114,안씨 막걸리,서울 용산구 회나무로 3,37.53858,126.9874,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/mr-ahn-s-craft-makgeolli-1192580,가격대 보통,3.9,64.0,010-4592-3609,11
+115,라망 시크레,서울 중구 퇴계로 67,37.55983,126.97949,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/l-amant-secret,가격대 높음,4.3,54.0,02-317-4003,7
+116,쉐시몽,서울 용산구 회나무로 66,37.54015,126.99404,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/chez-simon,가격대 보통,4.5,53.0,02-730-1045,11
+117,콘티넨탈,서울 중구 동호로 249,37.5558213,127.00517,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/continental,가격대 높음,4.2,33.0,02-2230-3369,7
+118,라연,서울 중구 동호로 249,37.555813,127.00517,"한식, 컨템퍼러리",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/la-yeon,가격대 높음,4.3,52.0,02-2230-3367,7
+119,제로 컴플렉스,서울 용산구 서빙고로59길 11-8,37.52079,126.99285,이노베이티브,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/zero-complex,가격대 높음,4.1,57.0,02-532-0876,11
+120,팔레드 신,서울 중구 퇴계로 67,37.55983,126.97949,중식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/palais-de-chine,가격대 약간 높음,3.6,63.0,02-317-4001,7
+121,에빗,서울 강남구 도산대로45길 10-5,37.52334,127.0362,"이노베이티브, 한식",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/evett,가격대 높음,3.9,33.0,0507-1399-1029,1
+122,물랑,서울 종로구 자하문로16길 8,37.5814682,126.9718836,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/moulin,가격대 약간 높음,4.2,36.0,070-4404-7978,9
+123,옳음,서울 강남구 선릉로152길 37,37.52451,127.04266,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/olh-eum,가격대 높음,,0.0,02-549-2016,1
+124,게방식당,서울 강남구 선릉로131길 17,37.51727,127.03942,게장,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/gebang-sikdang,가격대 낮음,3.1,46.0,010-8479-1107,1
+125,밍글스,서울 강남구 도산대로67길 19,37.52535,127.04426,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/mingles,가격대 높음,4.3,97.0,02-515-7306,1
+126,익스퀴진,서울 강남구 삼성로140길 6,37.5211374,127.04969,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/exquisine,가격대 약간 높음,4.2,59.0,02-542-6921,1
+127,미나미,서울 서초구 서초대로58길 31-2,37.4933,127.0181,소바,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/minami,가격대 낮음,2.6,118.0,02-522-0373,5
+128,진미 평양냉면,서울 강남구 학동로 305-3,37.516114,127.036202,냉면,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/jinmi-pyungyang-naengmyeon,가격대 낮음,3.8,631.0,02-515-3469,1
+129,하동관,서울 중구 명동9길 12,37.56439,126.98501,곰탕,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/hadongkwan,가격대 낮음,2.6,416.0,02-776-5656,7
+130,우래옥,서울 중구 창경궁로 62-29,37.56815,126.99866,냉면,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/woo-lae-oak,가격대 낮음,4.1,1471.0,02-2265-0151,7
+131,양양 메밀 막국수,서울 서초구 동광로15길 10,37.49247,126.98826,메밀국수,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/yangyang-memil-makguksu,가격대 낮음,3.7,90.0,02-3482-3738,5
+132,옥동식,서울 마포구 양화로7길 44-10,37.55261,126.91449,돼지국밥,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/okdongsik,가격대 낮음,3.9,498.0,010-5571-9915,3
+133,우가,서울 강남구 도산대로49길 22,37.52432,127.03734,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/wooga,가격대 약간 높음,3.9,33.0,02-6272-2223,1
+134,금돼지식당,서울 중구 다산로 149,37.55705,127.01165,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/geumdwaeji-sikdang,가격대 낮음,,0.0,0507-1307-8750,7
+135,필동면옥,서울 중구 서애로 26,37.56035,126.99689,냉면,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/pildong-myeonok,가격대 낮음,3.7,785.0,02-2266-2611,7
+136,평양면옥,서울 중구 장충단로 207,37.56325,127.00664,냉면,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/pyeongyang-myeonok,가격대 낮음,3.6,482.0,02-2267-7784,7
+137,류니끄,서울 강남구 도산대로45길 8-1,37.52291,127.03599,이노베이티브,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/ryunique,가격대 높음,4.0,11.0,02-546-9279,1
+138,구복만두,서울 용산구 두텁바위로 7,37.54501,126.97318,딤섬,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/goobok-mandu,가격대 낮음,3.7,421.0,02-797-8656,11
+139,역전회관,서울 마포구 토정로37길 47,37.566,126.947,불고기,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/yukjeon-hoekwan,가격대 보통,,0.0,02-703-0019,3
+140,테이블 포 포,서울 용산구 대사관로31길 25-12,37.53468,127.00523,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/table-for-four,가격대 보통,3.7,56.0,010-2905-6832,11
+141,용금옥,서울 종로구 자하문로 41-2,37.57972,126.97088,추어탕,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/yonggeumok,가격대 낮음,3.4,36.0,02-777-4749,9
+142,권숙수,서울 강남구 압구정로80길 37,37.52437,127.04355,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/kwonsooksoo,가격대 높음,4.3,55.0,02-542-6268,1
+143,레스쁘아 뒤 이부,서울 강남구 선릉로152길 33,37.5245,127.04227,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/l-espoir-du-hibou,가격대 약간 높음,3.2,62.0,02-517-6034,1
+144,스와니예,서울 강남구 강남대로 652,37.51933,127.01903,이노베이티브,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/soigne,가격대 높음,,0.0,02-3477-9386,1
+145,부촌육회,서울 종로구 종로 200-12,37.57034,126.99991,육회,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/buchon-yukhoe,가격대 낮음,4.2,481.0,02-2267-1831,9
+146,이문설농탕,서울 종로구 우정국로 38-13,37.57272,126.98388,설렁탕,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/imun-seolnongtang,가격대 낮음,3.1,332.0,02-733-6526,9
+147,꽃밥에피다,서울 종로구 인사동16길 3-6,37.57535,126.98404,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/a-flower-blossom-on-the-rice,가격대 보통,,0.0,02-732-0276,9
+148,호빈,서울 중구 동호로 287,37.5599583,127.0024232,중식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/haobin,가격대 높음,4.2,12.0,02-2270-3141,7
+149,정식당,서울 강남구 선릉로158길 11,37.525584,127.041069,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/jungsik511965,가격대 높음,3.1,349.0,02-517-4654,1
+150,비네토,부산 수영구 수영로522번길 55,35.15182,129.11473,이탤리언,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/vigneto,가격대 낮음,,0.0,010-2981-8078,6
+151,마테르,서울 강남구 언주로154길 16,37.52337,127.03464,"컨템퍼러리, 스칸디나비안",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/mater-1210122,가격대 보통,4.5,13.0,02-518-5879,1
+152,맷돌,서울 성동구 성덕정길 63,37.53808,127.05065,멕시칸,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/mattdol,가격대 낮음,,0.0,010-2658-2948,2
+153,러브얼스,부산 수영구 광안로49번길 32-1,35.15644,129.1185,비건,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/loveurth,가격대 낮음,4.6,54.0,070-4647-2420,6
+154,해남천일관,서울 서초구 반포대로39길 36-1,37.49862,127.00195,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/haenam-cheonilgwan,가격대 보통,3.7,10.0,02-568-7775,5
+155,소공간,부산 해운대구 해운대해변로298번길 47,35.16168,129.16738,코리안 컨템퍼러리,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/sogonggan,가격대 보통,4.7,12.0,010-5191-9002,14
+156,머스트루,부산 해운대구 좌동순환로433번길 29,35.16149,129.17634,유러피언,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/mustrue,가격대 보통,4.5,2.0,010-4569-2301,14
+157,소바쥬,서울 마포구 큰우물로 75,37.54126,126.94629,일식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/sobajuu,가격대 보통,4.9,11.0,,3
+158,유한,서울 용산구 대사관로5길 10-5,37.53482,127.00108,타이,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/youhan,가격대 낮음,4.1,36.0,070-8691-1509,11
+159,알고리즘,서울 강남구 도산대로49길 8,37.5233164,127.0374241,"컨템퍼러리, 재패니즈 컨템퍼러리",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/aelgerizm,가격대 약간 높음,4.0,3.0,010-3015-3869,1
+160,페리지,서울 강남구 봉은사로68길 6-5,37.51126,127.04949,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/perigee,가격대 보통,4.0,43.0,,1
+161,해목,부산 해운대구 구남로24번길 8,35.16174,129.15977,일식,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/haemok,가격대 보통,4.1,669.0,0507-1385-3730,14
+162,야키토리 키유,서울 마포구 도화4길 31,37.54059,126.95149,야키토리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/yakitori-kiyu,가격대 보통,4.8,13.0,02-702-1120,3
+163,알트에이,서울 용산구 보광로 109,37.53245,126.99446,"비건, 중식",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/alt-a,가격대 낮음,4.7,67.0,02-790-8688,11
+164,RMW Carne,서울 용산구 대사관로5길 12,37.53483,127.00085,스테이크하우스,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/rmw-carne,가격대 보통,3.5,28.0,0503-7151-7104,11
+165,서령,서울 중구 소월로 10,37.55857,126.97546,메밀국수,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/seoryung,가격대 낮음,4.3,330.0,0503-7150-8217,7
+166,능동미나리,서울 용산구 한강대로40길 28,37.53008,126.97078,곰탕,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/neungdong-minari,가격대 낮음,4.3,496.0,02-790-1026,11
+167,산로,서울 강남구 도산대로 518,37.52417,127.04978,일식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/sanro,가격대 높음,4.0,8.0,0506-465-6292,1
+168,백일평냉,부산 수영구 남천바다로10번길 29,35.14855,129.11164,냉면,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/100-1-pyeongnaeng,가격대 낮음,,0.0,051-625-5515,6
+169,레귬,서울 강남구 강남대로 652,37.51938,127.01932,"비건, 베지테리안",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/legume,가격대 보통,4.3,9.0,0507-1365-1567,1
+170,에스콘디도,서울 용산구 한남대로20길 61-7,37.53517,127.01046,멕시칸,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/escondido,가격대 약간 높음,5.0,2.0,0507-1347-8419,11
+171,피리피리,부산 수영구 무학로33번길 54,35.16379,129.11807,타이,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/pili-pili,가격대 낮음,,0.0,010-7997-4143,6
+172,빈호,서울 강남구 학동로43길 38,37.51866,127.03814,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/vinho,가격대 약간 높음,4.7,15.0,010-9677-2302,1
+173,이와,부산 해운대구 해운대해변로209번길 13,35.15959,129.15384,일식,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/iwa,가격대 보통,,0.0,010-8543-3356,14
+174,엘픽,서울 강남구 도산대로78길 25,37.52237,127.04659,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/elpic,가격대 약간 높음,4.4,34.0,,1
+175,알레즈,서울 용산구 독서당로 89,37.53479,127.01029,모던 요리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/al-aise,가격대 약간 높음,3.9,18.0,,11
+176,이스트,서울 강남구 언주로170길 26-6,37.5263,127.03556,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/y-east,가격대 약간 높음,4.9,10.0,070-8855-0470,1
+177,구찌 오스테리아 다 마시모 보투라,서울 강남구 압구정로 462,37.5192193,127.0413985,이탤리언 컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/gucci-osteria-da-massimo-bottura-1203402,가격대 약간 높음,3.6,11.0,02-795-1119,1
+178,중화복춘 살롱,서울 마포구 연남로 10,37.56068,126.92335,중식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/zhonghuafuchun-salon,가격대 보통,4.1,32.0,010-5124-2207,3
+179,시오,서울 강남구 도산대로54길 33,37.5205428,127.0391949,"컨템퍼러리, 재패니즈 컨템퍼러리",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/siio,가격대 약간 높음,4.5,40.0,0507-1335-6239,1
+180,강민철 레스토랑,서울 강남구 도산대로63길 18,37.5249,127.04365,프렌치 컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/kang-minchul-restaurant,가격대 높음,4.5,10.0,02-545-2511,1
+181,금수복국,부산 해운대구 중동1로43번길 23,35.16242,129.1645,복어,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/kumsu-bokguk,가격대 보통,3.9,472.0,051-742-3600,14
+182,에쌍스,서울 서초구 반포대로4길 12,37.48179,127.01336,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/essence-1207862,가격대 보통,3.6,29.0,010-8010-5099,5
+183,오프닝,서울 강남구 도산대로34길 22,37.51844,127.03105,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/opnng,가격대 약간 높음,4.5,29.0,02-2088-5844,1
+184,나가하마 만게츠,부산 해운대구 우동1로 57,35.16664,129.15748,라멘,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/nagahama-mangetsu,가격대 낮음,4.2,469.0,051-731-0886,14
+185,해운대 암소갈비집,부산 해운대구 해운대해변로 333,35.16324,129.16629,바비큐,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/haeundae-rib-barbecue-restaurant,가격대 보통,3.3,425.0,051-746-0033,14
+186,윤서울,서울 강남구 선릉로 805,37.52416,127.03906,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/yun,가격대 약간 높음,4.4,10.0,02-336-3323,1
+187,가겐 바이 최준호,서울 강남구 압구정로80길 19-1,37.52451,127.04523,일식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/gaggen,가격대 높음,5.0,6.0,010-4584-2154,1
+188,보르고 한남,서울 용산구 이태원로54길 31,37.53687,127.00187,이탤리언,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/borgo-hannam,가격대 약간 높음,3.7,23.0,02-6082-2727,11
+189,하네,서울 강남구 언주로172길 14,37.5275808,127.0348773,스시,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/hane,가격대 높음,4.3,21.0,010-9773-0887,1
+190,디 템포레,서울 용산구 한남대로 37,37.532213,127.0081086,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/de-tempore,가격대 보통,4.1,38.0,070-4848-6359,11
+191,세븐스도어,서울 강남구 학동로97길 41,37.52237,127.05429,"컨템퍼러리, 한식",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/7th-door,가격대 높음,4.3,14.0,02-542-3010,1
+192,아웃트로 바이 비토,부산 수영구 민락본동로19번길 18,35.15835,129.12786,유러피언,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/outro-by-vito,가격대 보통,3.7,20.0,051-758-7123,6
+193,에그 앤 플라워,서울 용산구 신흥로26길 35,37.545342,126.984447,이탤리언,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/egg-flour,가격대 보통,2.9,23.0,,11
+194,현우동,서울 강남구 논현로149길 53,37.51698,127.02429,우동,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/hyun-udon,가격대 낮음,3.7,220.0,02-515-3622,1
+195,정육면체,서울 서대문구 연세로5다길 22-8,37.55665,126.93576,국수,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/tasty-cube,가격대 낮음,3.8,418.0,070-4179-3819,4
+196,홍연,서울 중구 소공로 106,37.56441,126.9797,중식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/hong-yuan,가격대 높음,4.0,38.0,02-317-0494,7
+197,오스테리아 어부,부산 부산진구 동천로 58,35.15394,129.06253,이탤리언,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/osteria-aboo,가격대 약간 높음,,0.0,051-802-8858,8
+198,팔레트,부산 해운대구 달맞이길65번길 154,35.15659,129.17844,컨템퍼러리,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/palate,가격대 보통,4.3,25.0,051-626-2364,14
+199,으뜸 이로리바타,부산 수영구 수영로408번길 20,35.1373479,129.0292733,일식,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/eutteum-iroribata,가격대 보통,4.8,37.0,010-6640-2884,6
+200,오부이용,서울 성동구 독서당로51길 29-1,37.5311165,127.0073647,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/au-bouillon,가격대 보통,4.6,56.0,0502-5551-1801,2
+201,진중 우육면관,서울 종로구 청계천로 75-2,37.56854,126.98612,국수,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/niroumianguan,가격대 낮음,4.4,624.0,070-7777-2256,9
+202,알라 프리마,서울 강남구 학동로17길 13,37.51346,127.02602,이노베이티브,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/alla-prima,가격대 높음,4.5,73.0,02-511-2555,1
+203,쿠시카와,서울 강남구 논현로24길 37,37.48268,127.04566,쿠시아게,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/kushi-kawa,가격대 보통,4.4,16.0,02-579-0538,1
+204,오스테리아 오르조,서울 용산구 한남대로20길 47,37.53486,127.00946,이탤리언,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/osteria-orzo,가격대 보통,4.3,276.0,010-6361-0801,11
+205,소설한남,서울 용산구 한남대로20길 21-18,37.53528,127.00914,한식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/soseoul-hannam,가격대 높음,4.1,36.0,02-797-5995,11
+206,광화문 국밥,서울 중구 세종대로21길 53,37.5689,126.97541,돼지국밥,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/gwanghwamun-gukbap,가격대 낮음,4.0,436.0,02-738-5688,7
+207,서울 다이닝,서울 중구 동호로 272,37.55919,127.00359,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/seoul-dining,가격대 보통,4.3,69.0,02-6325-6321,7
+208,고료리 켄,서울 강남구 언주로152길 15-3,37.52298,127.03478,"컨템퍼러리, 재패니즈 컨템퍼러리",https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/goryori-ken,가격대 높음,4.2,8.0,02-511-7809,1
+209,벽제갈비,서울 송파구 양재대로71길 1-4,37.51007,127.12619,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/byeokje-galbi,가격대 약간 높음,3.0,54.0,02-415-5522,18
+210,교다이야,서울 마포구 성지길 39,37.54681,126.91317,우동,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/kyodaiya,가격대 낮음,3.8,365.0,02-2654-2645,3
+211,임병주 산동 칼국수,서울 서초구 강남대로37길 65,37.48458,127.02988,칼국수,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/limbyungjoo-sandong-kalguksu,가격대 낮음,3.3,444.0,02-3473-7972,5
+212,미미 면가,서울 강남구 강남대로160길 29,37.52003,127.02108,국수,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/mimi-myeonga,가격대 낮음,3.6,288.0,0507-1413-5466,1
+213,미토우,서울 강남구 도산대로70길 24,37.52206,127.04502,일식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/mitou,가격대 높음,4.2,14.0,,1
+214,톡톡,서울 강남구 학동로97길 41,37.52237,127.05429,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/toc-toc,가격대 보통,3.5,51.0,02-542-3030,1
+215,툭툭 누들 타이,서울 마포구 성미산로 161-8,37.56514,126.92401,타이,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/tuktuk-noodle-thai,가격대 낮음,3.5,314.0,070-4407-5130,3
+216,삼원가든,서울 강남구 언주로 835,37.52499,127.03297,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/samwon-garden,가격대 보통,,0.0,02-548-3030,1
+217,볼트 스테이크하우스,서울 강남구 압구정로72길 22,37.52496,127.04496,스테이크하우스,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/vault-steakhouse,가격대 높음,3.5,84.0,02-544-9235,1
+218,이치류,서울 마포구 잔다리로3안길 44,37.55061,126.91913,바비큐,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/ichiryu,가격대 낮음,4.2,93.0,02-3144-1312,3
+219,백년옥,서울 서초구 남부순환로 2407,37.48115,127.01374,두부,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/baecnyunok,가격대 낮음,3.0,290.0,02-523-2860,5
+220,화해당,서울 영등포구 국회대로62길 15,37.52689,126.91706,게장,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/hwa-hae-dang,가격대 보통,3.7,39.0,02-785-4422,29
+221,라미띠에,서울 강남구 도산대로67길 30,37.52591,127.04455,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/l-amitie,가격대 약간 높음,4.4,38.0,02-546-9621,1
+222,자하 손만두,서울 종로구 백석동길 12,37.59309,126.96603,만두,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/jaha-son-mandu,가격대 낮음,2.7,357.0,02-379-2648,9
+223,담미옥,부산 부산진구 복지로 15,35.15186,129.02054,냉면,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/damiok,가격대 낮음,3.9,65.0,,8
+224,레썽스,부산 수영구 광남로22번길 17,35.14477,129.11062,프렌치,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/l-essence,가격대 보통,4.7,11.0,0503-7150-1100,6
+225,램지,부산 수영구 광안해변로284번길 38,35.15333,129.12528,프렌치,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/ramsey,가격대 약간 높음,4.3,7.0,010-9406-3135,6
+226,뉴러우멘관즈,부산 수영구 수영로388번길 25-4,35.14029,129.10842,타이완,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/niurou-mian-guan-zi,가격대 낮음,,0.0,051-623-0251,6
+227,안암,서울 종로구 북촌로5길 10,37.57939,126.98446,돼지국밥,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/anam,가격대 낮음,,0.0,0507-1463-8189,9
+228,야키토리 해공,부산 수영구 민락본동로19번길 30-5,35.15823,129.12712,야키토리,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/yakitori-haegong,가격대 보통,4.6,17.0,051-758-8333,6
+229,모리,부산 해운대구 해운대해변로298번길 24,35.1602,129.16659,일식,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/mori,가격대 약간 높음,4.7,6.0,051-731-9889,14
+230,레땅,부산 부산진구 성지로 22,35.17255,129.05523,프렌치,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/l-etang,가격대 보통,4.5,13.0,,8
+231,차애전 할매 칼국수,부산 연제구 과정로191번가길 70,35.18716,129.10249,칼국수,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/cha-ae-jeon-halmae-kalguksu,가격대 낮음,3.5,87.0,051-751-9639,28
+232,야키토리 온정,부산 부산진구 동천로108번길 9-7,35.15866,129.06284,야키토리,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/yakitori-onjung,가격대 낮음,4.5,41.0,010-9649-9293,8
+233,쉐프곤,부산 중구 중구로23번길 12,35.10011,129.02731,유러피언 컨템퍼러리,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/chef-gon,가격대 약간 높음,4.6,5.0,010-4585-6607,20
+234,르도헤,부산 해운대구 마린시티3로 37,35.15543,129.14665,코리안 컨템퍼러리,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/le-dorer,가격대 약간 높음,4.5,67.0,051-747-8522,14
+235,계월곰탕,서울 성동구 성덕정3길 8,37.53952,127.04762,곰탕,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/kyewol-gomtang,가격대 낮음,3.6,53.0,070-8703-0310,2
+236,굿모닝홍콩,부산 부산진구 서전로47번길 19,35.15875,129.06444,중식,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/good-morning-hongkong,가격대 낮음,4.5,143.0,,8
+237,일 베키오,서울 마포구 월드컵북로 332-12,37.5763,126.89462,이탤리언,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/il-vecchio,가격대 보통,3.3,763.0,02-302-0944,3
+238,코르 파스타바,부산 부산진구 동성로25번길 13,35.15264,129.06769,이탤리언,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/cor-pasta-bar,가격대 낮음,4.1,27.0,,8
+239,동경밥상,부산 수영구 남천바다로 34-6,35.14839,129.11386,장어,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/tokyo-babsang,가격대 낮음,3.9,87.0,070-7576-1428,6
+240,레스토랑 알렌,서울 강남구 테헤란로 231,37.5036,127.0418,컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/restaurant-allen,가격대 높음,4.7,20.0,02-6985-7214,1
+241,안목,부산 수영구 광남로22번길 3,35.14492,129.11076,돼지국밥,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/anmok,가격대 낮음,4.1,165.0,070-8778-0519,6
+242,부다면옥,부산 해운대구 중동1로 36,35.16237,129.16298,냉면,https://guide.michelin.com/kr/ko/busan-region/busan_1025838/restaurant/buda-myeonoak,가격대 낮음,3.9,98.0,051-746-8872,14
+243,기가스,서울 중구 퇴계로6가길 30,37.55696,126.97809,지중해식,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/gigas,가격대 약간 높음,4.6,14.0,02-3448-9929,7
+244,르오뇽,서울 강남구 도산대로17길 29,37.52177,127.02053,프렌치,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/l-oignon,가격대 보통,4.8,33.0,0507-1324-9187,1
+245,이타닉 가든,서울 강남구 테헤란로 231,37.50304,127.04158,코리안 컨템퍼러리,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/eatanic-garden,가격대 높음,4.8,28.0,02-727-7610,1

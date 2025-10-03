@@ -4,11 +4,11 @@ from .models import *
 from django.views.decorators.clickjacking import xframe_options_exempt
 from django.db.models import Count
 from wordcloud import WordCloud
-import matplotlib.pyplot as plt
 from collections import Counter
-from konlpy.tag import Hannanum
 import base64
 from io import BytesIO
+from collections import Counter
+import ast
 
 def index(request):
 
@@ -103,15 +103,16 @@ def detail(request, restaurant_id):
     # 워드 클라우드 생성
     good_reviews = []
     bad_reviews = []
-    hannanum = Hannanum()
 
     for review in reviews:
-        text = review.comment  # 리뷰 텍스트
-        nouns = [noun for noun in hannanum.nouns(text) if len(noun) > 1]  # 명사 추출
+        comment_list = ast.literal_eval(review.comment)
         if review.star >= 3:
-            good_reviews.extend(nouns)
+            good_reviews.extend(comment_list)
         else:
-            bad_reviews.extend(nouns)
+            bad_reviews.extend(comment_list)
+    
+    good_counter = Counter(good_reviews)
+    bad_counter = Counter(bad_reviews)
 
     def create_wordcloud(counter):
         if not counter:  # 단어가 없으면 None 반환
@@ -128,8 +129,8 @@ def detail(request, restaurant_id):
         img_str = base64.b64encode(buffer.getvalue()).decode('utf-8')
         return img_str
 
-    good_wc = create_wordcloud(Counter(good_reviews))
-    bad_wc = create_wordcloud(Counter(bad_reviews))
+    good_wc = create_wordcloud(Counter(good_counter))
+    bad_wc = create_wordcloud(Counter(bad_counter))
 
     context = {
         'restaurant': restaurant,

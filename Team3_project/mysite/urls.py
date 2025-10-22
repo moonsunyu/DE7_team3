@@ -20,4 +20,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("michelinmap/", include('michelinmap.urls')),
+    path('rest/', include('michelinmap_api.urls')), # API URL
 ]
